@@ -1,0 +1,192 @@
+{
+  "dialogueId": 101,
+  "note": "Synthetic test dialogue — 8 speakers discussing whether trans women should compete against cis women in high-level sports. Approximately 12% inquiry. Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-04T21:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.5,
+      "text": "Today we're discussing a topic that has generated a lot of strong opinions — trans women competing against cis women in high-level sport. Before we dive in, I'd like to ask everyone to speak to how they came to their current position. What shaped your view on this question?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 15.8,
+      "end": 31.1,
+      "text": "I came to my position through competitive athletics. I competed at national level and I understand viscerally how small physical differences translate into competitive outcomes. I believe the evidence on physiological advantage after male puberty is clear enough that open-category women's sport cannot maintain integrity if it includes people who went through that puberty.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 32.4,
+      "end": 47.7,
+      "text": "My position was shaped by the trans people in my life, including a close friend who transitioned in her mid-twenties. She gave up almost everything to live authentically and sport was one of the things she had to give up entirely. Watching her excluded from something she loved because of a policy built on rare edge cases made me question the whole framework.",
+      "language": "en",
+      "speaker": "Aaron",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 49.0,
+      "end": 63.3,
+      "text": "I'm a sports scientist and I want to try to ground this in what the evidence actually shows, because I think both sides of the debate often claim more certainty than the science supports. What we know is that HRT significantly reduces many markers of male physiological advantage — but reduction is not elimination, and the picture varies substantially by sport.",
+      "language": "en",
+      "speaker": "Claudia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 64.6,
+      "end": 79.9,
+      "text": "The scientific nuance is important but I want to name something it can obscure. The number of trans women competing at elite level in women's sport is very small. The discourse around this issue is wildly disproportionate to the actual scale of the phenomenon. We are spending an enormous amount of political energy on a problem that affects a handful of athletes.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 81.2,
+      "end": 96.5,
+      "text": "The scale argument doesn't resolve the fairness question. If one athlete in a dozen-person final has an unfair advantage, the other eleven are affected. Numbers don't determine whether a principle is right or wrong. I believe in a clear, sport-based category that protects female athletes regardless of how many cases arise in practice.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 97.8,
+      "end": 112.1,
+      "text": "I want to ask Claudia about something specific. We keep hearing about testosterone thresholds as the key regulatory mechanism. Do you think those thresholds are the right tool, and are the current levels set at the right point scientifically — or is there genuine disagreement in the research community about where they should be?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 113.4,
+      "end": 128.7,
+      "text": "There's genuine disagreement, yes. The 10 nanomoles per litre threshold used in many sports is not derived from a specific evidence base showing that's the point at which advantage equalises. It was more or less chosen. Some research suggests that cardiovascular and musculoskeletal benefits of prior male puberty persist significantly below that level — but the evidence is not conclusive across all sports and all metrics.",
+      "language": "en",
+      "speaker": "Claudia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 130.0,
+      "end": 145.3,
+      "text": "That answer actually troubles me from a policy perspective. We're excluding real people from participation based on a threshold that the science doesn't firmly support. It strikes me as using the language of science to launder what is essentially a socially conservative conclusion rather than a rigorously evidenced one.",
+      "language": "en",
+      "speaker": "Aaron",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 146.6,
+      "end": 161.9,
+      "text": "I'd push back on that characterisation. The uncertainty cuts both ways. If we don't know for sure that advantage is eliminated, we cannot ethically include trans women in a category created specifically to address male/female physiological differences. Uncertainty under that kind of fairness obligation should lead to caution, not to inclusion by default.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 163.2,
+      "end": 177.5,
+      "text": "What strikes me about this debate is that it almost exclusively focuses on a single end of the athletic spectrum — elite, Olympic-level competition. The policies designed for that context then cascade down through amateur, recreational, and community sport where the fairness calculus is completely different. I believe we need sport-level and tier-level policies, not a single national or international rule.",
+      "language": "en",
+      "speaker": "Yuki",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 178.8,
+      "end": 193.1,
+      "text": "That's a valuable distinction. Elite sport is also the area where governing bodies have the most legitimate role in setting rules, because there's something identifiable at stake beyond participation — medals, rankings, livelihoods. Amateur sport is a different question and I think conflating them does a disservice to both debates.",
+      "language": "en",
+      "speaker": "Claudia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 194.4,
+      "end": 208.7,
+      "text": "What I keep coming back to is that women's sport as a protected category exists for a specific reason — to give female athletes equal competitive access. If that protection loses meaning, we haven't made progress. We've ended up back where we started, with women competing against people who have different physiological starting points.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 210.0,
+      "end": 225.3,
+      "text": "I want to suggest that framing assumes trans women are not women. If you accept that trans women are women — legally, socially, and personally — then their presence in women's sport is not a threat to the category. The debate is essentially about whether we do or don't accept that premise, and a lot of people are not being honest about that.",
+      "language": "en",
+      "speaker": "Aaron",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 226.6,
+      "end": 241.9,
+      "text": "I do accept that trans women are women. And I also believe sport is one of a small number of areas where biological sex characteristics — specifically the physiological effects of puberty — are the relevant consideration for a specific, bounded purpose. Accepting someone's identity as a woman is not the same as concluding that sports categorisation should be based exclusively on identity.",
+      "language": "en",
+      "speaker": "Yuki",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 243.2,
+      "end": 257.5,
+      "text": "I think Yuki has put it as precisely as anyone has in this conversation. The question is what the category is for. If it's an identity-affirming category then identity should determine membership. If it's a physiological fairness category then physiology should. Those lead to different answers and conflating them produces confusion rather than resolution.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 258.8,
+      "end": 273.1,
+      "text": "Could we make progress by thinking about what good outcomes look like rather than working backwards from principle? Thinking about what we actually want — trans women able to participate, cis women competing on a level field, sport welcoming to everyone — do we think those goals are compatible? And if so, which policies would actually achieve them?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 274.4,
+      "end": 289.7,
+      "text": "I think those goals are partially compatible and partially in tension. Inclusion and strict competitive fairness may not always point to the same policy. I'd rather have an honest conversation about that trade-off than pretend we can have everything simultaneously. Some compromises involve real costs and I think we owe trans athletes transparency about that.",
+      "language": "en",
+      "speaker": "Claudia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 291.0,
+      "end": 306.3,
+      "text": "The policy I find most interesting is an open or universal category in addition to — not instead of — a women's category. Any athlete could enter the open category regardless of sex or gender. That removes the binary choice between inclusion and protection and lets both values be served simultaneously. I'd like to know what others think of that approach.",
+      "language": "en",
+      "speaker": "Yuki",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 307.6,
+      "end": 322.9,
+      "text": "In practice an open category defaults to a men's category because of the physiological range involved. Trans women would be competitive in a women's field in very few sports but not in an open field. The proposal sounds inclusive but doesn't actually expand access for the people it's intended to help. I have doubts about it as a real solution.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 324.2,
+      "end": 339.5,
+      "text": "I think that's probably right about elite sport. But at recreational and masters levels an open category might work differently. The competitive stakes are lower, the physiological range within any age bracket is wide, and the primary driver of participation is enjoyment and community, not ranking. I believe the solutions genuinely are different at different levels.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 340.8,
+      "end": 356.1,
+      "text": "What I want to say to close is that the fierceness of this debate has real consequences for trans people regardless of what policies ultimately emerge. Trans women athletes are subjected to extraordinary scrutiny, harassment, and public dehumanisation in ways that have nothing to do with the policy question. We can have a rigorous debate without that. I think we have a responsibility to say so clearly.",
+      "language": "en",
+      "speaker": "Aaron",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 357.4,
+      "end": 371.7,
+      "text": "I agree with Aaron completely on that. Wherever someone comes down on the policy, the humanity of every individual athlete in this conversation is not in question. I've tried to argue from a position that takes both the science and trans people's dignity seriously. I believe both are possible at the same time.",
+      "language": "en",
+      "speaker": "Bridget",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

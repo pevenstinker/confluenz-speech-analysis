@@ -1,0 +1,77 @@
+{
+  "dialogueId": 45,
+  "recordedAt": "2026-04-04T19:36:39.162681+00:00",
+  "modelVersion": "faster-whisper-small-v3",
+  "segments": [
+    {
+      "start": 2.06,
+      "end": 7.46,
+      "text": "Testing testing. This is a statement. I'm making a statement. I believe that I",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 8.86,
+      "end": 13.26,
+      "text": "believe that",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 13.38,
+      "end": 16.82,
+      "text": "Israel is committing a genocide in Palestine and that the people deserve",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 17.54,
+      "end": 19.98,
+      "text": "the right to a home and safety and peace",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 21.22,
+      "end": 23.22,
+      "text": "What does everybody else think about this?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 23.86,
+      "end": 25.86,
+      "text": "Do you think that?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 28.17,
+      "end": 34.29,
+      "text": "What's happening right now is just that the actions of Israel are justified or are they unjust? Let me know",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "totalSegments": 7,
+    "audioDurationSeconds": 35.3,
+    "detectedLanguages": [
+      "en"
+    ],
+    "classifierBackend": "ollama",
+    "labelledSegments": 7,
+    "inquirySegments": 6,
+    "advocacySegments": 1,
+    "inquiryDurationSeconds": 22.4,
+    "advocacyDurationSeconds": 3.4,
+    "inquiryDurationPercent": 86.7
+  }
+}

@@ -1,0 +1,18 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Recorded audio (private conversation data, large binary files)
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Real session data (may contain private conversation content)
+# Remove these lines if you intentionally want to commit sample data
+transcript-*.txt
+results-20*.json
+audio-*.wav

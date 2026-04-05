@@ -1,0 +1,598 @@
+{
+  "dialogueId": 98,
+  "note": "Synthetic test dialogue — 10 speakers discussing abortion, approximately 10% inquiry (6 of 58 segments). Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-04T21:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 16.0,
+      "text": "Welcome everyone. Today we're here to discuss abortion rights and reproductive policy. Before we start, I'd like to ask each of you: what is your fundamental position on abortion, and what values or experiences shape that view?",
+      "language": "en",
+      "speaker": "Maria",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 17.2,
+      "end": 32.5,
+      "text": "I'll go first. I am unequivocally pro-choice. Reproductive autonomy is a fundamental human right. No government anywhere has the right to force a person to continue a pregnancy against their will. That's not a policy question. It's a question of basic human dignity.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 33.8,
+      "end": 50.2,
+      "text": "I have to respectfully but firmly disagree. Life begins at conception — that is a biological fact, not a religious belief. An unborn child is a human being, and that child's right to life supersedes any other interest in this debate. I believe we have a duty to protect that life.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 51.5,
+      "end": 66.8,
+      "text": "I think the reality is more nuanced than either of those positions. I support abortion access, particularly in early pregnancy. But I also believe we need to acknowledge that there are genuine moral questions here that deserve more honest engagement than we usually give them.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 68.1,
+      "end": 85.4,
+      "text": "When I look at the science of fetal development — the heartbeat, the brain activity, the pain response — I see a continuum along which personhood emerges. At some point we have to say this being deserves legal protection. I believe that point comes much earlier than most pro-choice advocates admit.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 86.7,
+      "end": 103.0,
+      "text": "What this conversation almost always ignores is the lived reality of women — particularly women of colour and low-income women. Restricting abortion doesn't end abortions. It ends safe abortions. The burden of restriction falls entirely on those who already face the most systemic disadvantage.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 104.3,
+      "end": 120.6,
+      "text": "I come to this from a faith perspective, and for me this ultimately comes down to recognising the sacred value of human life at every stage. We are called to protect the vulnerable, and there is no one more vulnerable than an unborn child. That conviction shapes everything else I believe about this.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 121.9,
+      "end": 135.2,
+      "text": "My position is rooted in the principle of limited government. If you believe the state has no right to tell you what to do with your money or your speech, then consistency demands you also believe the state cannot commandeer your body. The most coherent pro-liberty position is pro-choice.",
+      "language": "en",
+      "speaker": "Lisa",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 136.5,
+      "end": 150.8,
+      "text": "I work in public health policy, and from that vantage point what matters most is outcomes. Countries with the most restrictive abortion laws consistently have the worst maternal mortality rates. The empirical evidence is not ambiguous — access to safe abortion saves lives.",
+      "language": "en",
+      "speaker": "Emma",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 152.1,
+      "end": 163.4,
+      "text": "I'm genuinely uncertain where I stand. For those of you who are pro-life — how do you think about cases of rape and incest? Does that change your position at all, or do you hold the same view regardless of the circumstances of conception?",
+      "language": "en",
+      "speaker": "Carlos",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 164.7,
+      "end": 180.0,
+      "text": "That is the hardest question, and I want to answer it honestly. I believe the circumstances of conception do not change the nature of the child. A child conceived in rape has the same human value as any other child. I also believe we must do far more to support women in those circumstances — that's a moral obligation.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 181.3,
+      "end": 196.6,
+      "text": "I agree with Michael. The trauma of rape is real and devastating, and anyone who has experienced it deserves profound compassion and support. But I don't believe we solve one injustice by ending a life. We need to be present with people in their pain without adding a further harm to that pain.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 197.9,
+      "end": 213.2,
+      "text": "With respect to both of you, that position is very easy to hold when you will never be in that situation. Telling a rape survivor she must carry that pregnancy is not compassion. It is cruelty imposed by people who will bear none of the consequences. We simply do not have the right to make that decision for another person.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 214.5,
+      "end": 229.8,
+      "text": "I want to add something to what Aisha said. The rape exception debate is actually a distraction from the main argument. The overwhelming majority of abortions are not in cases of rape. They are people who cannot — for financial, medical, relationship, or personal reasons — continue a pregnancy. Those reasons are completely valid.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 231.1,
+      "end": 248.4,
+      "text": "What I want to push back on is the assumption that this is purely a women's rights issue on one side and purely a right-to-life issue on the other. I believe both things can be true simultaneously. We can care deeply about women's autonomy and still grapple seriously with what we owe to fetal life. I hold both of those things.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 249.7,
+      "end": 266.0,
+      "text": "I want to make the point that I am not anti-woman. I have a daughter, and I want her to have every opportunity available. But I believe that abortion is a moral question — not merely a political or medical one — and dismissing pro-life views as simply wanting to control women misrepresents why most of us hold these views.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 267.3,
+      "end": 281.6,
+      "text": "I understand that, David, but policy effects are what they are regardless of intent. When abortion access is restricted, women are harmed. That is not an ideological claim — it is a finding from measurement. I think we have a responsibility to follow the evidence even when it challenges our values.",
+      "language": "en",
+      "speaker": "Emma",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 282.9,
+      "end": 297.2,
+      "text": "I want to offer a different framing here. Whether you are pro-life or pro-choice, I think we should all be alarmed by the idea of government making medical decisions for individuals. Once you accept that the state can compel you to carry a pregnancy, you have accepted a principle of bodily control that can be extended in dangerous directions.",
+      "language": "en",
+      "speaker": "Lisa",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 298.5,
+      "end": 311.8,
+      "text": "What about viability? I keep hearing that cited as a threshold — the point at which a fetus could survive outside the womb. Is that really the right place to draw the moral and legal line? And if it's not, where do people think the line should actually be?",
+      "language": "en",
+      "speaker": "Carlos",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 313.1,
+      "end": 329.4,
+      "text": "Viability was the standard established by Roe v. Wade and it made sense as a legal framework because it reflects a genuine physiological milestone. I believe abortion should be available up to viability with minimal restrictions. After that point, only in cases of medical necessity. That is a humane and defensible line.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 330.7,
+      "end": 347.0,
+      "text": "Viability is an interesting threshold but it's also technologically dependent — it shifts as neonatal medicine advances. I'm not convinced a morally significant line should be determined by the capabilities of a particular hospital's intensive care unit. That strikes me as a fragile and arbitrary foundation for such an important question.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 348.3,
+      "end": 365.6,
+      "text": "That's precisely why I reject viability as the right standard. It's arbitrary and it keeps moving. A premature baby in a rural clinic is less viable than one in a major medical centre. Viability measures our technology, not the child's humanity. The question of personhood has to be answered on different grounds.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 366.9,
+      "end": 383.2,
+      "text": "I agree the viability threshold is philosophically weak. But I'd go further — the question of personhood logically comes before the question of viability. If we establish that personhood begins at conception, viability becomes irrelevant. We don't deny rights to people simply because they depend on others for survival.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 384.5,
+      "end": 401.8,
+      "text": "But we also don't require any person to sacrifice their own body to sustain another person's life, even when the stakes are very high. If I'm the only blood-type match, no one can legally compel me to donate blood even to save a dying child. The right to bodily autonomy means something real, and it applies here too.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 403.1,
+      "end": 419.4,
+      "text": "The blood donation analogy doesn't hold for me because pregnancy is a natural process, not an external imposition. A new life has come to depend on the mother's body in a way that flows from the nature of biological reproduction. I believe that creates a different kind of obligation than any blood donation scenario implies.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 420.7,
+      "end": 436.0,
+      "text": "Tom, pregnancy doesn't always emerge from a choice. And even when it does, consent to sex is not consent to pregnancy — just as consent to driving is not consent to being in an accident. I believe people have the right to make decisions about the consequences of their actions, including this one.",
+      "language": "en",
+      "speaker": "Lisa",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 437.3,
+      "end": 453.6,
+      "text": "I want to bring us back to practical realities for a moment. Sixty percent of people who have abortions already have children. Most are in their twenties and cite financial constraints as a primary factor. The conversation we really need to have is about why people find themselves facing this decision — not just about what happens afterward.",
+      "language": "en",
+      "speaker": "Emma",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 454.9,
+      "end": 467.2,
+      "text": "Emma raises a compelling point about the gap between public debate and lived reality. I'm curious — do people in this room think the public conversation about abortion is actually focused on the right questions, or are we collectively missing something important?",
+      "language": "en",
+      "speaker": "Maria",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 468.5,
+      "end": 483.8,
+      "text": "We are absolutely missing things. We obsess over the binary of legal or illegal when we should be asking why abortions happen in the first place. Poverty, lack of contraception access, inadequate parental support — address those seriously and you'd see dramatic reductions. People on both sides should want that.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 485.1,
+      "end": 498.4,
+      "text": "That resonates with me strongly. Reducing unwanted pregnancies seems like it could be common ground — it addresses the problem at the source rather than fighting about what to do afterward. I'm genuinely surprised that isn't the centrepiece of this debate.",
+      "language": "en",
+      "speaker": "Carlos",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 499.7,
+      "end": 514.0,
+      "text": "I support that in principle — better education, better contraception access, better adoption and support systems. But reducing unwanted pregnancies is not a substitute for having a clear position on what to do when they occur. One doesn't cancel out the other, and I won't soften my view on that.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 515.3,
+      "end": 531.6,
+      "text": "I'm glad Michael supports contraception access, because a significant portion of the anti-abortion movement has historically opposed both contraception and comprehensive sex education. The consistency of the pro-life position falls apart when you see how many of its advocates oppose the very things that would most reduce abortion rates.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 532.9,
+      "end": 549.2,
+      "text": "I can only speak for myself. I support better education and better support systems for families. Some in the pro-life movement have been genuinely inconsistent on these things and that has been a real moral and political failure. But the core principle — that life is sacred — doesn't become less true because of those failures.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 550.5,
+      "end": 566.8,
+      "text": "I want to name something this conversation keeps doing. We gravitate toward edge cases — rape, incest, medical emergency — even though the vast majority of abortions don't involve those circumstances. I believe we have to be honest about the common cases when forming policy positions, not just the hardest and most sympathetic ones.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 568.1,
+      "end": 584.4,
+      "text": "David is right that most abortions aren't in those circumstances. But that actually strengthens the pro-choice case rather than weakening it. It means people having abortions are making considered decisions based on their own financial realities, life plans, and circumstances. Those are legitimate reasons that deserve respect, not interrogation.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 585.7,
+      "end": 600.0,
+      "text": "I keep returning to the question of who decides. Even if I personally find abortion morally complicated, I am not comfortable with politicians being the ones who make that call for private individuals. History consistently shows what happens when the state takes control of reproduction — and none of it is good.",
+      "language": "en",
+      "speaker": "Lisa",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 601.3,
+      "end": 616.6,
+      "text": "The international data is very clear on this. When abortion is criminalised, the abortion rate does not drop significantly — it shifts to unsafe procedures. The countries with the lowest abortion rates are not the ones with the most restrictive laws. They're the ones with the best social support systems and contraception access.",
+      "language": "en",
+      "speaker": "Emma",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 617.9,
+      "end": 634.2,
+      "text": "I want to challenge that framing slightly. The goal shouldn't only be to reduce the number of abortions — it should also be to recognise the moral weight of each one. A society that treats abortion as a routine medical procedure with no moral dimension is, I believe, missing something crucial about what we owe to human life.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 635.5,
+      "end": 651.8,
+      "text": "Michael, I think many people who are pro-choice actually do feel that moral weight — they just don't believe it should translate into legal prohibition. Those are two completely different things. Private moral reflection and public policy are not the same question, and conflating them is one of the biggest sources of miscommunication in this debate.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 653.1,
+      "end": 668.4,
+      "text": "Exactly. I personally believe abortion is a serious decision. I've never met anyone who has had one who took it lightly. But taking something seriously doesn't mean the government should prohibit it. I take many serious decisions that remain entirely mine to make, and this should be one of them.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 669.7,
+      "end": 684.0,
+      "text": "I hear that argument and I understand why it compels people. But we do legally prohibit things that harm others, not just the person making a choice. If you genuinely believe there is another person whose rights are at stake in this decision, the liberty argument alone simply doesn't resolve the question.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 685.3,
+      "end": 698.6,
+      "text": "I think I'm starting to understand why this debate never gets resolved. Both sides are working from entirely different foundational frameworks — one is about rights and bodily autonomy, the other is about when personhood begins. Until you agree on that foundational question, both frameworks just talk past each other indefinitely.",
+      "language": "en",
+      "speaker": "Carlos",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 699.9,
+      "end": 712.2,
+      "text": "Carlos has put his finger on something important there. I want to open it to the whole group — is there actually any common ground in this room? Is there any principle or position that everyone here could genuinely agree on, even across the deepest disagreements?",
+      "language": "en",
+      "speaker": "Maria",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 713.5,
+      "end": 727.8,
+      "text": "I think we can probably all agree that reducing unwanted pregnancies is a worthwhile goal. We might agree that later abortions carry more moral weight than earlier ones. We could likely agree that no one should face this decision lightly. That's actually more common ground than the public debate usually acknowledges.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 729.1,
+      "end": 743.4,
+      "text": "I can agree with all of that. And I'd add that women facing unintended pregnancies deserve far better support than they currently receive, whatever they decide. The social safety net around this decision is genuinely inadequate, and I believe that failure is something we should all own.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 744.7,
+      "end": 758.0,
+      "text": "I'd add another point of agreement. Everyone here probably believes that coerced abortions — where someone is pressured into a procedure they don't want — are wrong. Reproductive autonomy cuts in both directions, and that's a principle that should unite everyone in this room.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 759.3,
+      "end": 772.6,
+      "text": "I think we can also agree that whatever people decide, they deserve compassion rather than judgment. The experience of navigating an unintended pregnancy is genuinely hard, and moralising at people from either ideological direction adds nothing useful to their situation.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 773.9,
+      "end": 788.2,
+      "text": "I can agree with all of that. Where I believe we fundamentally diverge is on whether there is a third person in this equation — the unborn child — and what moral and legal status that person holds. That is where agreement ends for me, and everything else in this debate flows from that single central disagreement.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 789.5,
+      "end": 803.8,
+      "text": "Michael has identified the crux of it. I also want to say that I don't think people who disagree with me are evil. I believe they're working from a different framework about when personhood begins. I think that framework is wrong and the consequences of the error are enormous — but I respect that they hold it sincerely.",
+      "language": "en",
+      "speaker": "Tom",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 805.1,
+      "end": 818.4,
+      "text": "Regardless of where anyone lands on personhood, I believe legal prohibition is the wrong instrument. It doesn't work, it harms women disproportionately, and it places the state in a role it has no business occupying. Even if one believes abortion is morally wrong, criminalisation consistently makes things worse.",
+      "language": "en",
+      "speaker": "Lisa",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 819.7,
+      "end": 834.0,
+      "text": "The public health evidence fully supports that. The most effective interventions are access to contraception, comprehensive education, economic support for families, and affordable childcare. These are achievable and demonstrably reduce abortion rates. Criminalisation is not effective, and the data shows this clearly.",
+      "language": "en",
+      "speaker": "Emma",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 835.3,
+      "end": 848.6,
+      "text": "This has genuinely helped me think more clearly. I came in uncertain and I remain uncertain, but I understand the shape of my uncertainty better now. I can see that the disagreement isn't really about values — both sides care deeply about important things. It's about a foundational question that hasn't been resolved.",
+      "language": "en",
+      "speaker": "Carlos",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 849.9,
+      "end": 863.2,
+      "text": "I've found this valuable. What's been unusual about this conversation is that people have engaged with the reasoning on the other side rather than simply repeating their positions more loudly. That kind of engagement is rare in this debate, and I think it matters more than people realise.",
+      "language": "en",
+      "speaker": "Jennifer",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 864.5,
+      "end": 876.8,
+      "text": "I want to thank everyone for this remarkably thoughtful discussion. Before we close — is there anything important that hasn't been said? Any perspective or voice that this conversation hasn't made room for?",
+      "language": "en",
+      "speaker": "Maria",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 878.1,
+      "end": 892.4,
+      "text": "I'd just note that we've framed this almost entirely around women. Trans men and non-binary people can also become pregnant, and they face these decisions too — often with additional barriers. The conversation needs to be broader than the framing it almost always gets.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 893.7,
+      "end": 907.0,
+      "text": "I want to close by saying that I hope people on both sides can hold onto the fact that the other side is usually motivated by genuine values, not malice. This debate gets uglier and less productive the more we demonise each other. I would rather change minds through honest conversation than through political pressure.",
+      "language": "en",
+      "speaker": "David",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 908.3,
+      "end": 922.6,
+      "text": "I want to add one thing before we close. This conversation happened in a room where everyone is comfortable speaking freely. That is not the reality for most people navigating an unintended pregnancy. The stakes are not abstract for them. I hope that stays with us when we leave this room.",
+      "language": "en",
+      "speaker": "Sarah",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 923.9,
+      "end": 938.2,
+      "text": "I believe every person in this room cares about something important — about women, about life, about justice. We weigh those things differently. But I don't think the conversation ends here. This is the most consequential moral debate our society is having, and we need to keep having it with honesty and with this level of respect.",
+      "language": "en",
+      "speaker": "Michael",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "classifierBackend": "ollama",
+    "classifierModel": "llama3.2:3b",
+    "labelledSegments": 58,
+    "inquirySegments": 6,
+    "advocacySegments": 52,
+    "inquiryDurationSeconds": 77.5,
+    "advocacyDurationSeconds": 786.7,
+    "inquiryDurationPercent": 9.0
+  }
+}

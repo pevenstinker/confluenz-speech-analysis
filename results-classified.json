@@ -1,0 +1,300 @@
+{
+  "dialogueId": 42,
+  "recordedAt": "2026-04-01T18:11:25.741136+00:00",
+  "modelVersion": "faster-whisper-small-v3",
+  "segments": [
+    {
+      "start": 16.69,
+      "end": 34.3,
+      "text": "Testing, testing, one, two, three, testing.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 34.3,
+      "end": 39.98,
+      "text": "This thing's really recording.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 39.98,
+      "end": 41.98,
+      "text": "Press enter in my terminal.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 41.98,
+      "end": 54.92,
+      "text": "I don't even know.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 54.92,
+      "end": 77.98,
+      "text": "Interesting, very interesting.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 77.98,
+      "end": 89.96,
+      "text": "Here we go.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 89.96,
+      "end": 91.96,
+      "text": "Testing, testing, I'm testing the system.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 91.96,
+      "end": 92.96,
+      "text": "Is it running?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 92.96,
+      "end": 93.96,
+      "text": "Is it running?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 93.96,
+      "end": 94.96,
+      "text": "This is a question.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 94.96,
+      "end": 95.96,
+      "text": "This is inquiry.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 95.96,
+      "end": 97.96,
+      "text": "Now I'm going to make statements.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 97.96,
+      "end": 101.96,
+      "text": "I think that abortion should be a right, slavery is wrong.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 1.0
+    },
+    {
+      "start": 101.96,
+      "end": 103.96,
+      "text": "But what do you all think?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 103.96,
+      "end": 105.96,
+      "text": "What do you think about these topics?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 105.96,
+      "end": 623.45,
+      "text": "Now this is cool.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 623.45,
+      "end": 625.45,
+      "text": "I am liking this.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 625.45,
+      "end": 630.45,
+      "text": "Alright, well, so, let me make some statements here.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 630.45,
+      "end": 636.04,
+      "text": "First of all, I think this interface is really cool.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 1.0
+    },
+    {
+      "start": 636.04,
+      "end": 637.04,
+      "text": "I love it.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 1.0
+    },
+    {
+      "start": 637.04,
+      "end": 639.04,
+      "text": "I especially love the ASCII art that says Confluence.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 639.04,
+      "end": 642.04,
+      "text": "That's really great.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 642.04,
+      "end": 643.04,
+      "text": "I don't know.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 643.04,
+      "end": 647.04,
+      "text": "What does everybody think about...",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 647.04,
+      "end": 650.04,
+      "text": "What do you guys think about the Lord of the Rings movies?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 650.04,
+      "end": 652.04,
+      "text": "What do you think about...",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 652.04,
+      "end": 654.04,
+      "text": "Were they accurate to the books?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 654.04,
+      "end": 656.04,
+      "text": "Were they faithful to the books?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 656.04,
+      "end": 658.04,
+      "text": "Did you like Peter Jackson's vision?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 1.0
+    },
+    {
+      "start": 658.04,
+      "end": 661.04,
+      "text": "I definitely...",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 661.04,
+      "end": 663.04,
+      "text": "There were so many things that I liked about the movies.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    },
+    {
+      "start": 663.04,
+      "end": 668.04,
+      "text": "I liked, in some cases, I think he made the right choices with some of his artistic changes.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 1.0
+    },
+    {
+      "start": 668.04,
+      "end": 673.04,
+      "text": "Like, honestly, I like how he got rid of Tom Bombadil.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.542
+    },
+    {
+      "start": 673.04,
+      "end": 675.04,
+      "text": "But I think that's it for now.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 1.0
+    },
+    {
+      "start": 675.04,
+      "end": 1106.28,
+      "text": "So, thanks so much for letting me do this recording.",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.55
+    }
+  ],
+  "stats": {
+    "totalSegments": 35,
+    "audioDurationSeconds": 1155.4,
+    "detectedLanguages": [
+      "en"
+    ],
+    "labelledSegments": 35,
+    "inquirySegments": 10,
+    "advocacySegments": 25,
+    "inquiryDurationSeconds": 21.0,
+    "advocacyDurationSeconds": 1068.6,
+    "inquiryDurationPercent": 1.9
+  }
+}

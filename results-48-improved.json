@@ -1,0 +1,126 @@
+{
+  "dialogueId": 48,
+  "recordedAt": "2026-04-04T21:09:02.614114+00:00",
+  "modelVersion": "faster-whisper-small-v3",
+  "segments": [
+    {
+      "start": 1.17,
+      "end": 7.93,
+      "text": "Testing testing. This is dialogue test number 48 testing testing. Welcome to dialogue test number 48",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 9.13,
+      "end": 15.81,
+      "text": "We've now retrained the model and I'm really excited about the results the AI results are a hundred percent",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 16.05,
+      "end": 19.67,
+      "text": "But what do you think the results are gonna be? Do you think that?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 20.45,
+      "end": 24.57,
+      "text": "Normal human speech is gonna be a hundred percent or do you think that we're gonna have?",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 25.81,
+      "end": 29.09,
+      "text": "Do you think that there might be some differences that might come out and",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 29.49,
+      "end": 32.89,
+      "text": "Would fool the model and result in a lower a lower percentage",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 33.73,
+      "end": 35.73,
+      "text": "I'm really excited. We're now at",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 36.65,
+      "end": 43.53,
+      "text": "36 seconds of dialogue recorded and I will have the results very soon. I'm excited to look at them",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 43.53,
+      "end": 45.85,
+      "text": "I hope you're all excited to look at them and",
+      "language": "en",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 46.69,
+      "end": 51.65,
+      "text": "So as soon as we get these results, we'll share them if you have any thoughts about it, please let me know",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 51.65,
+      "end": 53.65,
+      "text": "I can't wait to hear your feedback",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 53.93,
+      "end": 55.93,
+      "text": "Here we go the results for",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 55.93,
+      "end": 59.97,
+      "text": "Dialogue number 48 and I'm stopping the recording now",
+      "language": "en",
+      "label": "inquiry",
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "totalSegments": 13,
+    "audioDurationSeconds": 60.2,
+    "detectedLanguages": [
+      "en"
+    ],
+    "classifierBackend": "ollama",
+    "classifierModel": "llama3.2:3b",
+    "labelledSegments": 13,
+    "inquirySegments": 9,
+    "advocacySegments": 4,
+    "inquiryDurationSeconds": 34.1,
+    "advocacyDurationSeconds": 18.0,
+    "inquiryDurationPercent": 65.5
+  }
+}

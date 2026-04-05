@@ -1,0 +1,298 @@
+{
+  "dialogueId": 102,
+  "note": "Synthetic test dialogue — 7 speakers discussing philosophical thought experiments. Contains ~20% inquiry — higher than other dialogues because thought experiments naturally invite questions. Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-04T21:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.5,
+      "text": "Today we're exploring thought experiments — not to reach conclusions but to see where the thinking leads. I want to start with the trolley problem because almost everyone has heard of it. What does your reaction to the trolley problem actually reveal about how you reason morally? What do others think it tells us?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 15.8,
+      "end": 30.1,
+      "text": "I think the trolley problem reveals that we have two distinct moral processing systems — one that reasons about outcomes and one that responds to direct bodily violation. The reason it's hard is that these systems give different answers. Its value is to show us that our moral intuitions are not unified, which is important to know.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 31.4,
+      "end": 45.7,
+      "text": "I find myself drawn to the utilitarian answer in the abstract — pull the lever, save five — but genuinely unable to endorse the footbridge variant where you push someone off a bridge to stop the trolley. The philosophy convinces me but my gut refuses to follow. That gap seems important. It means I don't fully trust either my reasoning or my intuitions.",
+      "language": "en",
+      "speaker": "Sam",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 47.0,
+      "end": 61.3,
+      "text": "I think thought experiments have a limited use and an overextended reputation. They are very good at probing intuitions in controlled conditions. They are not good models of real ethical decisions because real decisions always involve uncertainty, relationships, and context that the thought experiment strips away. I worry when people apply trolley-style logic to actual policy.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 62.6,
+      "end": 76.9,
+      "text": "I take a more sympathetic view of thought experiments. Philosophy's job is partly to isolate variables so you can examine one consideration at a time. That's exactly what thought experiments do. The fact that reality is messier doesn't undermine the value of understanding what counts in the clean case before adding the complications.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 78.2,
+      "end": 92.5,
+      "text": "I want to introduce a different thought experiment — the experience machine. Nozick's question: if you could plug into a machine that perfectly simulates a rich and satisfying life, with no way to tell it from reality, would you? Most people say no. What does that no actually mean about what we value?",
+      "language": "en",
+      "speaker": "Laleh",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 93.8,
+      "end": 108.1,
+      "text": "I think the no says we value something about authentic contact with reality — other real minds, real causation, real consequences — that isn't captured by subjective experience alone. It's a strong reason against pure hedonism. The experience machine makes it vivid that pleasure or satisfaction isn't everything we care about.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 109.4,
+      "end": 123.7,
+      "text": "I'd push on that. I wonder if the no to the experience machine is partly about identity — about being the author of your own life — rather than about reality per se. When I imagine the machine I resist it not because I want real suffering but because I want real choice. Those might come apart in a more sophisticated scenario.",
+      "language": "en",
+      "speaker": "Sam",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 125.0,
+      "end": 139.3,
+      "text": "It also matters who's asking. For someone whose real life involves significant suffering or deprivation, the calculation looks very different. The intuitive rejection of the experience machine may be a preference of the comfortable. I don't think we should read too much into intuitions that may be rooted in privilege.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 140.6,
+      "end": 154.9,
+      "text": "That's a really important point. Some thought experiments assume a neutral starting point that isn't actually neutral. The experience machine might be a much harder decision for someone in chronic pain or severe poverty. Thought experiments can inadvertently encode a kind of default subject — educated, physically comfortable, socially secure.",
+      "language": "en",
+      "speaker": "Laleh",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 156.2,
+      "end": 170.5,
+      "text": "Let's move to something different — the ship of Theseus. Every plank is replaced until nothing original remains. Is it the same ship? And does that question matter, or is it just a puzzle about the word same?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 171.8,
+      "end": 186.1,
+      "text": "My view is that it matters enormously, but not for metaphysical reasons — for practical and legal ones. Who owns the ship of Theseus? What counts as the original artefact for purposes of cultural heritage law? When does a company remain legally responsible for a predecessor's liabilities? These questions have real answers that depend on how we draw the identity line.",
+      "language": "en",
+      "speaker": "Nadia",
+      "groundTruth": "advocacy",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 187.4,
+      "end": 201.7,
+      "text": "I think the ship raises the question of whether identity is intrinsic or relational. A ship might be the same ship not because of its material composition but because of its continuous history of being treated and referred to as that ship. Identity under this view is partly socially constituted, not just a property of the object.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 203.0,
+      "end": 217.3,
+      "text": "That connects to personal identity in interesting ways. We replace almost all our cells over years. Our beliefs and personality change dramatically across a lifetime. In what sense am I the same person I was at seven? If I'm not, does the seven-year-old's trauma still belong to me? Does the seven-year-old's promise still obligate me?",
+      "language": "en",
+      "speaker": "Sam",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 218.6,
+      "end": 232.9,
+      "text": "I find psychological continuity the most compelling account of personal identity — what makes you the same person over time is overlapping chains of memory, belief, intention, and personality, rather than bodily continuity. But I hold that view tentatively. Parfit made me take seriously the possibility that personal identity isn't actually determinate, which is a strange thing to believe about yourself.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 234.2,
+      "end": 248.5,
+      "text": "Parfit is a good example of a thought experiment that did real damage — productive damage — to an intuitive self-conception. The teleporter scenarios where you seem to survive and also seem not to survive are genuinely destabilising. I believe the mark of a good thought experiment is that it leaves you less certain than when you started.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 249.8,
+      "end": 264.1,
+      "text": "I want to try a different one. The original position — Rawls's idea that you design a society from behind a veil of ignorance, not knowing your place in it. I find this thought experiment uniquely compelling because it has direct practical implications. If you think it works, it gives you a method for adjudicating between social arrangements. Do people here find it persuasive as a device for generating principles of justice?",
+      "language": "en",
+      "speaker": "Nadia",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 265.4,
+      "end": 280.7,
+      "text": "I find it very powerful as a corrective to naked self-interest in policy discussion. When you force someone from a privileged position to reason as if they might be at the bottom, it shifts what counts as a reasonable arrangement. I believe the original position is one of the most important tools we have for moral argumentation in politics.",
+      "language": "en",
+      "speaker": "Laleh",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 282.0,
+      "end": 296.3,
+      "text": "My concern is that the veil of ignorance doesn't actually eliminate bias — it shifts it. When you strip away your particularities behind the veil, what remains isn't a neutral reasoner. What remains is a reasoner shaped by the assumptions and concepts of the philosopher who designed the veil. Rawls's original position reflects a particular liberal tradition, not a view from nowhere.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 297.6,
+      "end": 311.9,
+      "text": "That is a serious critique and I think Rawls would partly accept it. But it doesn't obviously defeat the method — it means we should interrogate the assumptions embedded in the veil rather than abandoning the device of hypothetical impartial reasoning altogether. The method can be reformed. It doesn't have to start from Rawls's specific formulation.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 313.2,
+      "end": 327.5,
+      "text": "I want to return to something Tobias said earlier — about thought experiments being poor models for real ethical decisions because they strip away context. I actually wonder if that's a bug or a feature. Sometimes stripping context away is exactly what you need in order to prevent motivated reasoning. Could he say more about where he thinks the line is?",
+      "language": "en",
+      "speaker": "Sam",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 328.8,
+      "end": 343.1,
+      "text": "My view is that thought experiments earn their keep when they clarify conceptual distinctions and probe intuitions — the trolley problem is good at that. They lose their value when they're used to generate policy conclusions directly, because that requires bridging the clean case back to the messy reality, and that bridge always loads in assumptions that haven't been scrutinised.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 344.4,
+      "end": 358.7,
+      "text": "To close, I'd ask everyone to share which thought experiment they find most genuinely illuminating — the one that most changed how they think. You don't have to justify it. Just share which one stays with you.",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry",
+      "label": "inquiry",
+      "confidence": 0.9
+    },
+    {
+      "start": 359.0,
+      "end": 369.3,
+      "text": "The experience machine. I came in thinking pleasure was most of what mattered and it permanently complicated that. I never resolved the challenge — I just stopped thinking pleasure was obvious.",
+      "language": "en",
+      "speaker": "Sam",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 370.6,
+      "end": 381.9,
+      "text": "Parfit's teleporter. The possibility that there isn't a fact of the matter about whether I survive is one of the strangest and most liberating ideas I've encountered. It's philosophically strange but it has actually made me less afraid of certain things.",
+      "language": "en",
+      "speaker": "Eleanor",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 383.2,
+      "end": 393.5,
+      "text": "The original position. Not because it resolves anything but because it gives me a language for calling out self-serving argument in policy discussions. It's a tool I use almost weekly.",
+      "language": "en",
+      "speaker": "Nadia",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 394.8,
+      "end": 405.1,
+      "text": "Mary's room — the case of the colour scientist who knows everything about colour physics but has never seen red. I think it shows that there is something about conscious experience that cannot be fully captured in third-person physical descriptions. That seems important for how we think about minds and AI.",
+      "language": "en",
+      "speaker": "Laleh",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    },
+    {
+      "start": 406.4,
+      "end": 417.7,
+      "text": "Rawls. But specifically the discovery that your intuitions about the just society shift markedly depending on whether you're asked to design it knowing your place or not. That gap tells you something real about how much self-interest contaminates political reasoning. That finding travels far beyond philosophy.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy",
+      "label": "advocacy",
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "classifierBackend": "ollama",
+    "classifierModel": "llama3.2:3b",
+    "labelledSegments": 28,
+    "inquirySegments": 8,
+    "advocacySegments": 20,
+    "inquiryDurationSeconds": 114.6,
+    "advocacyDurationSeconds": 269.0,
+    "inquiryDurationPercent": 29.9
+  }
+}

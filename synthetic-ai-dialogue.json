@@ -1,0 +1,264 @@
+{
+  "dialogueId": 99,
+  "note": "Synthetic test dialogue — 8 speakers discussing the future of AI. Approximately 12% inquiry. Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-04T21:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.5,
+      "text": "Welcome everyone. We're here today to explore a topic that touches all of us more and more every day — the future of artificial intelligence. I'd like to open by asking: how do you feel about the role AI is beginning to play in your professional or personal life? What excites or concerns you most?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 15.8,
+      "end": 30.2,
+      "text": "What concerns me most is the speed of change. Industries are being disrupted before society has any framework for managing the consequences. We've never had a transformative technology that moved this fast, and I worry that the people who are developing it are moving far ahead of any meaningful democratic accountability.",
+      "language": "en",
+      "speaker": "Danielle",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 31.5,
+      "end": 46.8,
+      "text": "I take a different view. I think AI is the most significant opportunity for human progress since the industrial revolution. The question isn't whether to embrace it — that ship has sailed — it's how to steer it. I believe the right response is engagement and investment, not anxiety.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 48.1,
+      "end": 62.4,
+      "text": "I work in healthcare and from where I stand AI is already saving lives. Pattern recognition in radiology, drug interaction checking, early warning systems for sepsis — these are not hypothetical. They are real tools that real clinicians are using today. I find the doom narrative genuinely disconnected from my experience.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 63.7,
+      "end": 79.0,
+      "text": "I don't think anyone here is saying AI has no benefits. The question is whether those benefits are being distributed equitably and whether we're being honest about the costs. Right now, the gains are flowing to capital and the tech elite, while automation risk falls disproportionately on lower-skilled workers who have the fewest options.",
+      "language": "en",
+      "speaker": "Danielle",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 80.3,
+      "end": 95.6,
+      "text": "That is a fair concern but I don't believe it's inevitable. The same concern was raised about electrification, about computers, about the internet. In each case new kinds of work emerged that nobody anticipated. I'm not dismissing the disruption — it's real — but history gives me reason for cautious optimism.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 96.9,
+      "end": 112.2,
+      "text": "History is a useful guide but it has limits. The speed of this transition is genuinely different. Previous waves of automation took decades and gave labour markets time to adjust. The projection models I find most credible suggest we may be talking about displacements over years, not generations. That's a qualitatively different challenge.",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 113.5,
+      "end": 127.8,
+      "text": "Leon, do you think the answer is to slow AI development deliberately, or do you see the solution as primarily about social policy — retraining programmes, universal basic income, that kind of thing?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 129.1,
+      "end": 145.4,
+      "text": "I believe both are necessary and that framing them as opposed is a mistake. We need stronger investment in transition support and we also need governance mechanisms that can actually slow deployment in high-risk domains until safety standards exist. Letting the market determine the pace is not a neutral choice — it's a choice made by default.",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 146.7,
+      "end": 161.0,
+      "text": "What I think is often missing from these conversations is the AI safety dimension. I don't mean science fiction scenarios. I mean the very concrete problem of deploying large models in high-stakes settings — law, medicine, financial decisions — without being able to reliably predict when they will fail or why.",
+      "language": "en",
+      "speaker": "Sofia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 162.3,
+      "end": 176.6,
+      "text": "I appreciate that concern but I'd push back on the idea that we should wait for perfect understanding before deploying. Human decision-makers in those same domains — doctors, lawyers, loan officers — are not themselves perfectly predictable or free of serious failure modes. We don't hold AI to a standard we don't apply to humans.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 177.9,
+      "end": 192.2,
+      "text": "That comparison doesn't work for me. When a human makes a mistake it's local and attributable. When an AI system makes a systematic mistake it can affect millions of people before anyone notices the pattern. The scale of the failure mode is categorically different. That's why the standard has to be higher.",
+      "language": "en",
+      "speaker": "Sofia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 193.5,
+      "end": 207.8,
+      "text": "I want to raise something that isn't discussed as much — the cultural and creative implications. AI systems trained on human creative work, producing content at scale, without compensation to the people whose work they learned from. I believe this is a profound intellectual property and labour rights issue that we are completely failing to address.",
+      "language": "en",
+      "speaker": "Remi",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 209.1,
+      "end": 224.4,
+      "text": "I hear Remi's point but I want to complicate it slightly. Humans also learn from other people's creative work. The law has never granted copyright in styles or ideas — only in specific expression. The question of where AI training data sits in that framework is genuinely unsettled, and I don't think the answer is as clear as some advocates suggest.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 225.7,
+      "end": 240.0,
+      "text": "Whether or not it's settled legally, it's a justice question. The people whose writing, art, and music were consumed to build these systems received nothing. The companies that built the systems are worth hundreds of billions. That asymmetry is hard to justify morally even if the law provides cover.",
+      "language": "en",
+      "speaker": "Remi",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 241.3,
+      "end": 256.6,
+      "text": "I want to steer us toward a question I find genuinely difficult. If AGI — truly general artificial intelligence — does emerge in the next decade or two, what do we think our obligations are to that entity? Do we have any? Or is that still too speculative to take seriously?",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 257.9,
+      "end": 273.2,
+      "text": "I think it's too speculative to be useful right now. We have very concrete harms in the present — job displacement, misinformation, surveillance, bias in consequential systems — and I worry that the AGI discussion functionally serves to distract from those immediate problems rather than address them.",
+      "language": "en",
+      "speaker": "Danielle",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 274.5,
+      "end": 290.8,
+      "text": "I don't think it's speculative at all — or at least not more speculative than planning for any long-horizon societal shift. The window between first achieving AGI and the need to have frameworks in place could be very short. If we haven't thought about it before then, we will be making those decisions in a panic.",
+      "language": "en",
+      "speaker": "Sofia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 292.1,
+      "end": 306.4,
+      "text": "I put myself in the camp that believes some version of AGI is coming in the next decade or two. My view is that the most important question isn't whether to allow it but how to ensure that when it arrives it is aligned with human values. Alignment research is where I think the most important work is happening right now.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 307.7,
+      "end": 323.0,
+      "text": "But whose values? That question doesn't go away just by adding the word alignment. The values baked into the most powerful AI systems will reflect the priorities of whoever builds them. Right now that's a very narrow slice of humanity. I believe that's a problem that needs to be solved before we worry about aligning the AI itself.",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 324.3,
+      "end": 339.6,
+      "text": "I agree with Leon completely. The governance question is logically prior to the alignment question. You can have a perfectly aligned AI that's aligned with values that most of humanity would reject. Alignment without democratic legitimacy is just very sophisticated autocracy.",
+      "language": "en",
+      "speaker": "Danielle",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 340.9,
+      "end": 356.2,
+      "text": "From my perspective in healthcare, I keep coming back to a more immediate concern. AI systems being deployed in clinical settings are making errors that have direct patient consequences, and the feedback loops for catching those errors are nowhere near good enough. I want better governance at the implementation level before we debate the metaphysics.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 357.5,
+      "end": 372.8,
+      "text": "The artists and writers I know are frightened. This isn't abstract for them. They are losing commissions, seeing their style replicated without credit, watching platforms flood with AI-generated content that competes directly with their work. What do other people here think we should actually do about that — practically speaking?",
+      "language": "en",
+      "speaker": "Remi",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 374.1,
+      "end": 389.4,
+      "text": "At minimum I believe there should be mandatory labelling of AI-generated content and licensing requirements for training data. Those seem like baseline protections. Beyond that I would support a levy on AI outputs to fund a creative works fund — similar to the model used in some music licensing schemes.",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 390.7,
+      "end": 403.0,
+      "text": "I support labelling for sure. But I'm sceptical that you can practically define training data in a way that creates enforceable licensing obligations across the entire public internet without breaking a lot of other things. The architecture of how these models learn doesn't map neatly onto existing IP frameworks.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 404.3,
+      "end": 419.6,
+      "text": "To close our conversation, I want to ask everyone to reflect. If you could change one thing — one policy, one norm, one industry practice — related to AI development right now, what would it be? Please let me know your one most important change.",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 420.9,
+      "end": 433.2,
+      "text": "Mandatory pre-deployment audits in high-stakes domains — healthcare, criminal justice, financial services. No deployment without independent third-party safety evaluation. Regulators currently have neither the tools nor the mandate to do this. We need to build both.",
+      "language": "en",
+      "speaker": "Sofia",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 434.5,
+      "end": 447.8,
+      "text": "Genuine opt-out rights for anyone whose data was used in training. Not buried in a settings menu — a real right with enforcement. The foundation of these systems is everyone's freely shared knowledge and expression. That deserves more than zero acknowledgement.",
+      "language": "en",
+      "speaker": "Remi",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 449.1,
+      "end": 463.4,
+      "text": "I'd change the public conversation. Too much of the debate is either utopian or dystopian. I'd want a serious, empirically grounded national conversation about what AI actually does and doesn't do, what the evidence says about its impacts, and what governance options are available. We can't make good decisions in an information environment this distorted.",
+      "language": "en",
+      "speaker": "Danielle",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 464.7,
+      "end": 478.0,
+      "text": "I would invest in AI literacy at every level of education. Most of the people making regulatory decisions about AI — legislators, judges, policymakers — have very little understanding of how these systems actually work. That's a dangerous knowledge gap at exactly the moment when decisions with long-term consequences are being made.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 479.3,
+      "end": 492.6,
+      "text": "I'd reform the liability framework. Right now when an AI system causes harm it's very hard to assign accountability. If companies faced genuine legal and financial liability for harms from their systems — not just reputational risk — the incentive structure would shift immediately toward safety and thoughtful deployment.",
+      "language": "en",
+      "speaker": "Leon",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 493.9,
+      "end": 507.2,
+      "text": "I'd push hard for international coordination on standards. AI doesn't respect national borders. If one jurisdiction regulates and another doesn't, development simply migrates. The race-to-the-bottom dynamic in AI governance is already happening. Only a credible international framework can prevent it.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

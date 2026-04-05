@@ -1,0 +1,192 @@
+{
+  "dialogueId": 100,
+  "note": "Synthetic test dialogue — 8 speakers discussing whether Christmas should be cancelled as a cultural institution. Approximately 13% inquiry. Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-04T21:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.5,
+      "text": "We have an unusual topic today — should we cancel Christmas? I know that sounds provocative, but I think it surfaces some real questions about culture, religion, consumerism, and inclusion. I'd love to hear where people start from on this. What does Christmas mean to you, and does it have a future?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 14.8,
+      "end": 29.1,
+      "text": "I want to say straight away that no, we should not cancel Christmas. It's one of the few cultural moments in the year where we actually pause, gather with family, and acknowledge something beyond day-to-day life. Whatever its commercial excesses, it performs a real social function that we'd lose at our peril.",
+      "language": "en",
+      "speaker": "Catherine",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 30.4,
+      "end": 44.7,
+      "text": "The word cancel is doing a lot of work in this question. Nobody is going to make Christmas illegal. But the question of whether we should actively celebrate it as a shared cultural event — particularly in increasingly plural societies — is much more interesting and I think the answer is genuinely complicated.",
+      "language": "en",
+      "speaker": "Younes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 46.0,
+      "end": 60.3,
+      "text": "My family isn't Christian. We celebrate Christmas completely secularly — presents, a tree, a big meal. And I've never felt anything but welcome in it. The idea that Christmas excludes people because of its origins seems to me to miss the fact that the holiday has long since become primarily cultural, not religious.",
+      "language": "en",
+      "speaker": "Jaspreet",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 61.6,
+      "end": 75.9,
+      "text": "I'm a practising Christian and honesty requires me to say that the secular version of Christmas has almost nothing to do with what the festival is actually about. I'm not offended by secular celebrations, but I do think we should be honest that what most people celebrate in December is consumerism with some winter aesthetics, not the birth of Christ.",
+      "language": "en",
+      "speaker": "Nathan",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 77.2,
+      "end": 91.5,
+      "text": "Nathan makes an important point about honesty. The environmental cost of Christmas is genuinely enormous — the waste, the overconsumption, the flights, the packaging. I don't think you can describe Christmas as a positive cultural institution while ignoring the ecological reality of how it's actually practiced.",
+      "language": "en",
+      "speaker": "Amara",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 92.8,
+      "end": 107.1,
+      "text": "I think the environmental argument, taken to its conclusion, applies to almost any collective celebration. The question isn't whether Christmas has an environmental cost — it does — but whether those costs can be addressed through reform rather than abolition. I believe they can, and that's the better path.",
+      "language": "en",
+      "speaker": "Catherine",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 108.4,
+      "end": 122.7,
+      "text": "What concerns me more is what Christmas does to people who don't have family, who are grieving, who are isolated, or who are struggling financially. The cultural pressure to be joyful and surrounded by loved ones in December is enormous, and it makes life genuinely harder for a lot of people. We rarely talk about that.",
+      "language": "en",
+      "speaker": "Kirra",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 124.0,
+      "end": 138.3,
+      "text": "That's a real phenomenon — seasonal isolation and what clinicians call the holiday effect on mental health. But I'd ask: is Christmas the cause, or is it a lens that makes existing inequalities in connection and belonging more visible? Removing Christmas wouldn't remove loneliness.",
+      "language": "en",
+      "speaker": "Younes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 139.6,
+      "end": 153.9,
+      "text": "I agree it wouldn't remove loneliness, but I do think Christmas amplifies it in a specific, avoidable way. The expectation of abundance, togetherness, and joy that saturates our media and public spaces in December is something we've chosen culturally. We could choose differently.",
+      "language": "en",
+      "speaker": "Kirra",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 155.2,
+      "end": 169.5,
+      "text": "Can I ask something practical? What does cancelling Christmas actually look like in your minds? Are we talking about closing shops on the 25th of December, ending state school nativity plays, removing Christmas from the official public holiday calendar? I want to understand the concrete proposal.",
+      "language": "en",
+      "speaker": "Jaspreet",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 170.8,
+      "end": 185.1,
+      "text": "I don't actually think we should abolish it. What I think we should do is stop funding it publicly, stop mandating it in public institutions, and let it become what it really is — a private religious and cultural celebration for those who want it, rather than a default national event that everyone has to navigate.",
+      "language": "en",
+      "speaker": "Amara",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 186.4,
+      "end": 200.7,
+      "text": "I find that slightly dishonest as a position, because the practical effect of removing public Christmas would be to diminish it significantly. If that's the goal, say so. I prefer honest advocacy. I celebrate Christmas and I want it protected as part of our shared public life — not disappeared through administrative neutrality.",
+      "language": "en",
+      "speaker": "Catherine",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 202.0,
+      "end": 216.3,
+      "text": "As someone from a Muslim background, I want to say that I've never felt excluded by Christmas existing. What I find more difficult is the assumption that I must celebrate it, the awkward pressure at work, the expectation that Christmas is the default shared experience. The holiday can exist without that social coercion.",
+      "language": "en",
+      "speaker": "Younes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 217.6,
+      "end": 231.9,
+      "text": "I think Younes has identified something real. The problem isn't Christmas — it's the cultural assumption that Christmas is universal. I'd rather we work on making the season genuinely pluralist: visible recognition of Eid, Hanukkah, Diwali, Yule, the solstice — as well as Christmas. Not abolition but expansion.",
+      "language": "en",
+      "speaker": "Jaspreet",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 233.2,
+      "end": 247.5,
+      "text": "From a Christian point of view, I actually welcome that. The commercialisation of Christmas has already diluted what the season means for us. If the national conversation shifted toward a genuinely plural winter season, that might actually help Christians reclaim what Christmas is supposed to be about.",
+      "language": "en",
+      "speaker": "Nathan",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 248.8,
+      "end": 263.1,
+      "text": "I want to go back to the debt question. The Christmas spending cycle puts millions of families into financial difficulty every year. Debt taken on in December can take months to clear. We have normalised a cultural practice that causes real material harm to economically vulnerable families. That seems worth confronting.",
+      "language": "en",
+      "speaker": "Amara",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 264.4,
+      "end": 278.7,
+      "text": "That's driven by consumer culture, not by Christmas itself. Plenty of people celebrate meaningfully and cheaply. We can't hold the holiday responsible for what advertising and social pressure does to people's spending decisions. The target for reform there is the commercial machinery, not December 25th.",
+      "language": "en",
+      "speaker": "Catherine",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 280.0,
+      "end": 294.3,
+      "text": "I want to name something I've been sitting with through this conversation. We keep talking about Christmas as if it's a single thing. But for a lot of people — and especially for children — Christmas is fundamentally about magic, anticipation, and warmth. That's worth preserving. Do others think children's experience of Christmas should factor into how we evaluate it?",
+      "language": "en",
+      "speaker": "Kirra",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 295.6,
+      "end": 309.9,
+      "text": "I think children's experience should factor in very heavily. The rituals of childhood — waiting for something, the collective excitement, the story-world that adults maintain for them — teach things about anticipation and meaning that are genuinely valuable. You can question the commercialism while defending the magic.",
+      "language": "en",
+      "speaker": "Nathan",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 311.2,
+      "end": 325.5,
+      "text": "I'd add that children's experience of Christmas is not culturally neutral either. A child in a home where Christmas isn't celebrated, surrounded by classmates for whom it's the defining event of the year, faces a particular form of social exclusion that is easy to underestimate if you're not on the outside of it.",
+      "language": "en",
+      "speaker": "Younes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 326.8,
+      "end": 341.1,
+      "text": "To close, what I'd say is this. Christmas as it currently exists has real problems — commercial, environmental, exclusive, psychologically harmful for some. But the response is not cancellation. It's reform, honesty, and expansion. What we need is a richer shared culture, not a poorer one.",
+      "language": "en",
+      "speaker": "Jaspreet",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 342.4,
+      "end": 356.7,
+      "text": "I'd second that. Reform over abolition. But that requires people to be willing to examine what they're actually celebrating and why — and that examination is one I'd push everyone in this room to do, religious or not.",
+      "language": "en",
+      "speaker": "Nathan",
+      "groundTruth": "advocacy"
+    }
+  ]
+}
