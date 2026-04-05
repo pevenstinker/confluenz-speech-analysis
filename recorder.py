@@ -1,6 +1,7 @@
 import os
 import queue
 import time
+from datetime import datetime, timezone
 
 import numpy as np
 import sounddevice as sd
@@ -13,17 +14,32 @@ CHANNELS = 1
 class Recorder:
     def __init__(self, save_audio_path=None):
         self._q = queue.Queue()
-        self._chunks = []
-        self._stream = None
         self._save_path = save_audio_path
         self._start_time = None
+        self._start_utc = None
+        self._stream = None
+        self._wav_writer = None
+        # Rolling buffer for overlap: holds the last N samples from the previous chunk
+        self._overlap_audio = np.zeros(0, dtype="float32")
+        # Wall-clock time of the previous drain_chunk call; used to compute time_offset
+        self._last_drain_wall: float = None
 
     def _callback(self, indata, frames, time_info, status):
         self._q.put(indata.copy())
 
+    @property
+    def start_utc(self) -> datetime:
+        return self._start_utc
+
     def start(self):
-        self._chunks = []
+        self._overlap_audio = np.zeros(0, dtype="float32")
+        self._last_drain_wall = None
         self._start_time = time.time()
+        self._start_utc = datetime.now(timezone.utc)
+        if self._save_path:
+            self._wav_writer = sf.SoundFile(
+                self._save_path, mode="w", samplerate=SAMPLE_RATE, channels=CHANNELS, subtype="PCM_16"
+            )
         self._stream = sd.InputStream(
             samplerate=SAMPLE_RATE,
             channels=CHANNELS,
@@ -37,22 +53,77 @@ class Recorder:
             return 0
         return int(time.time() - self._start_time)
 
-    def stop(self):
-        """Stop the stream and return (audio_ndarray, sample_rate)."""
+    def drain_chunk(self, overlap_samples: int = 0) -> tuple:
+        """Drain all audio currently in the queue and return it as a flat float32 array.
+
+        The returned array is prefixed with *overlap_samples* samples carried over
+        from the end of the previous chunk.  This ensures words that straddle a
+        chunk boundary are heard in full by Whisper.
+
+        Also writes the new (non-overlap) audio to .wav incrementally if enabled.
+
+        Returns
+        -------
+        (audio, time_offset, actual_overlap_seconds) where:
+          - audio is the combined (overlap + new) float32 array
+          - time_offset is the session-elapsed seconds at the START of the audio
+          - actual_overlap_seconds is how many seconds of overlap were prepended
+            (0.0 for the first call when there is no previous chunk)
+        """
+        chunks = []
+        while not self._q.empty():
+            chunks.append(self._q.get_nowait())
+
+        now_wall = time.time()
+        new_audio = np.concatenate(chunks, axis=0).flatten() if chunks else np.zeros(0, dtype="float32")
+
+        if self._wav_writer is not None and len(new_audio) > 0:
+            self._wav_writer.write(new_audio)
+
+        # Actual overlap that will be prepended (length of stored overlap buffer)
+        actual_overlap_secs = len(self._overlap_audio) / SAMPLE_RATE
+
+        # time_offset = session time at the START of the overlap prefix.
+        # The overlap buffer was captured ending at _last_drain_wall, so it
+        # starts at _last_drain_wall - actual_overlap_secs (relative to _start_time).
+        # On the first call there is no previous drain, so time_offset = 0.
+        if self._last_drain_wall is not None:
+            time_offset = max(0.0, (self._last_drain_wall - self._start_time) - actual_overlap_secs)
+        else:
+            time_offset = 0.0
+
+        self._last_drain_wall = now_wall
+
+        # Build chunk: overlap tail from previous + new audio
+        combined = np.concatenate([self._overlap_audio, new_audio]) if len(self._overlap_audio) > 0 else new_audio
+
+        # Store the new overlap tail for the next call
+        if overlap_samples > 0 and len(new_audio) >= overlap_samples:
+            self._overlap_audio = new_audio[-overlap_samples:]
+        else:
+            self._overlap_audio = np.zeros(0, dtype="float32")
+
+        return combined, time_offset, actual_overlap_secs
+
+    def stop(self) -> tuple:
+        """Stop the stream and return (final_audio_ndarray, sample_rate, time_offset).
+
+        Drains any remaining audio from the queue with no overlap prefix.
+        """
         if self._stream:
             self._stream.stop()
             self._stream.close()
-        # drain any remaining frames from the queue
-        while not self._q.empty():
-            self._chunks.append(self._q.get_nowait())
+            self._stream = None
 
-        audio = np.concatenate(self._chunks, axis=0).flatten() if self._chunks else np.zeros(0, dtype="float32")
+        remaining, time_offset, _ = self.drain_chunk(overlap_samples=0)
 
-        if self._save_path and len(audio) > 0:
-            sf.write(self._save_path, audio, SAMPLE_RATE)
-            print(f"  Audio saved: {os.path.basename(self._save_path)}")
+        if self._wav_writer is not None:
+            self._wav_writer.close()
+            self._wav_writer = None
+            if self._save_path:
+                print(f"  Audio saved: {os.path.basename(self._save_path)}")
 
-        return audio, SAMPLE_RATE
+        return remaining, SAMPLE_RATE, time_offset
 
     @staticmethod
     def list_devices():

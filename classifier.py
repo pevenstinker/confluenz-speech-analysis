@@ -173,8 +173,15 @@ def _classify_with_regex(segments: list) -> None:
             seg["confidence"] = confidence
 
 
-def classify_segments(segments: list) -> tuple:
+def classify_segments(segments: list, prev_segment: dict = None) -> tuple:
     """Classify each segment dict in-place.
+
+    Parameters
+    ----------
+    segments:     list of segment dicts to classify (modified in-place)
+    prev_segment: optional last segment from the previous chunk, used as
+                  context for the first group in this call (cross-chunk continuity)
+
     Returns (backend, model) where backend is 'ollama' or 'regex' and model
     is the Ollama model name (e.g. 'gemma3:1b') or 'regex' for the rule-based backend.
     Segments without a 'text' field (privacy mode) are skipped."""
@@ -192,7 +199,7 @@ def classify_segments(segments: list) -> tuple:
         return "regex", "regex"
 
     if config.classifier == "ollama":
-        backend = _classify_with_ollama(active_segments)
+        backend = _classify_with_ollama(active_segments, prev_segment=prev_segment)
     else:
         backend = "regex"
 
@@ -357,8 +364,15 @@ def _force_inquiry_override(text: str, label: str) -> str:
     return label
 
 
-def _classify_with_ollama(segments: list) -> str:
+def _classify_with_ollama(segments: list, prev_segment: dict = None) -> str:
     """Classify segments using Ollama, grouping fragments before sending to the model.
+
+    Parameters
+    ----------
+    segments:     list of segment dicts to classify in-place
+    prev_segment: optional last segment from the previous chunk, used as
+                  initial context for the first group (cross-chunk continuity)
+
     Returns 'ollama' on success, 'regex' on failure."""
     from config import config
     try:
@@ -370,7 +384,8 @@ def _classify_with_ollama(segments: list) -> str:
     groups = _group_segments(segments)
     total_groups = len(groups)
     total_segs = len(segments)
-    prev_combined = None  # 5d: previous group text for context
+    # 5d: seed with the last segment from the previous chunk if provided
+    prev_combined = (prev_segment.get("text") or "").strip() if prev_segment else None
 
     try:
         for i, group in enumerate(groups):

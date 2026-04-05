@@ -18,6 +18,8 @@ class Config:
         self.save_text_in_json = _bool(os.getenv('SAVE_TEXT_IN_JSON'), default=True)
         self.classifier = os.getenv('CLASSIFIER', 'ollama')  # 'ollama' or 'regex'
         self.ollama_model = os.getenv('OLLAMA_MODEL', 'gemma3:1b')
+        self.chunk_interval = int(os.getenv('CHUNK_INTERVAL', '30'))   # seconds per processing chunk
+        self.chunk_overlap = int(os.getenv('CHUNK_OVERLAP', '3'))      # seconds of overlap between chunks
 
     def apply_overrides(self, model=None, save_audio=None, save_transcript_txt=None, save_text_in_json=None):
         if model:
