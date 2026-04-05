@@ -1,0 +1,256 @@
+{
+  "dialogueId": 102,
+  "note": "Synthetic test dialogue — 10 speakers discussing gun rights. Approximately 13% inquiry (8 of 60 segments). Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-05T10:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.5,
+      "text": "Today we're talking about gun rights — one of the most contested issues in American public life, with implications far beyond the United States. I'd like to open with a simple question: what does the right to bear arms mean to you, and is it a right you believe should be protected?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 16.0,
+      "end": 31.5,
+      "text": "It means freedom to me. The Second Amendment isn't about hunting or home defence, though those matter. It's about the fundamental right of citizens to resist tyranny. The founders understood that an armed citizenry is the last backstop against government overreach. That principle is as relevant today as it ever was.",
+      "language": "en",
+      "speaker": "Travis Holbrook",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 33.0,
+      "end": 48.5,
+      "text": "I was a gun owner for twenty years. I still believe people have the right to own firearms for protection and sport. But I gave up my guns after my nephew was killed in a mass shooting. The right to own weapons needs to be balanced against the right of children to go to school without being killed.",
+      "language": "en",
+      "speaker": "Karen Liu",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 50.0,
+      "end": 65.5,
+      "text": "I think the data is unambiguous. Countries with strong gun regulations have dramatically lower rates of gun deaths. The United States has more guns per capita than any other nation and more gun deaths than any peer country. That correlation is not a coincidence and it is not explained away by mental health differences.",
+      "language": "en",
+      "speaker": "Dr. Evelyn Cross",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 67.0,
+      "end": 82.5,
+      "text": "The international comparisons ignore enormous cultural and demographic differences. Switzerland has very high gun ownership and very low gun crime. The problem in the United States is not the number of guns — it's the social conditions in communities where gun violence concentrates. Blaming the tool is easier than solving the actual problem.",
+      "language": "en",
+      "speaker": "Travis Holbrook",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 84.0,
+      "end": 99.5,
+      "text": "Switzerland has mandatory military service and its citizens are required to store military weapons in specific conditions with strict accountability. It is not a free-market gun ownership model. Using Switzerland as an example for unregulated civilian gun ownership gets the facts exactly backwards.",
+      "language": "en",
+      "speaker": "Dr. Evelyn Cross",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 101.0,
+      "end": 116.5,
+      "text": "I want to bring in a different perspective. I grew up in a rural area where the nearest police response time was forty-five minutes. Guns were not a political statement — they were a practical tool for protecting livestock, dealing with wildlife, and yes, for home defence in a place where calling 911 meant you were on your own for the better part of an hour. That reality exists and urban policy debates often ignore it entirely.",
+      "language": "en",
+      "speaker": "Joe Malone",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 118.0,
+      "end": 133.5,
+      "text": "Joe, does that rural experience change how you think about regulation? Would you support different rules for rural and urban contexts — different waiting periods, storage requirements, permit conditions?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 135.0,
+      "end": 150.5,
+      "text": "Honestly, yes. I think a one-size-fits-all federal approach is part of the problem. I would support background checks — I already pass them — I'd support red flag laws with proper due process. What I oppose is magazine limits and assault weapon bans that are defined so broadly they cover hunting rifles that have been in my family for three generations.",
+      "language": "en",
+      "speaker": "Joe Malone",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 152.0,
+      "end": 167.5,
+      "text": "The assault weapons debate is important. The AR-15 platform was chosen for mass shootings specifically because of its magazine capacity and rate of fire. Las Vegas, Parkland, Sandy Hook, Uvalde — the pattern is consistent. These weapons were not designed for deer hunting. They were designed to kill people efficiently and they do.",
+      "language": "en",
+      "speaker": "Karen Liu",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 169.0,
+      "end": 184.5,
+      "text": "I understand the emotional weight of those tragedies, Karen, and I don't minimise them. But mass shootings, while horrific, account for a small fraction of total gun deaths in America. Most gun deaths are suicides and inner-city handgun violence. If you actually wanted to reduce gun deaths at scale, you would focus regulation on handguns, not semi-automatic rifles.",
+      "language": "en",
+      "speaker": "Travis Holbrook",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 186.0,
+      "end": 201.5,
+      "text": "Travis raises a real statistical point there. Why do you think the political debate focuses so heavily on mass shootings and assault rifles given that handgun violence causes far more deaths?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 203.0,
+      "end": 218.5,
+      "text": "Because mass shootings happen in schools and shopping malls and affect middle-class white communities in a way that inner-city gun violence doesn't. The political salience of mass shootings is a function of who the victims are and which communities feel threatened. That is uncomfortable to say but it is true.",
+      "language": "en",
+      "speaker": "Dr. Evelyn Cross",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 220.0,
+      "end": 235.5,
+      "text": "I think that's exactly right, and I'd add that inner-city gun violence reduction is consistently underfunded and deprioritised. The communities most affected by everyday gun violence — overwhelmingly Black and Brown — are also the communities whose voices are least represented in this policy debate. That's a justice issue as much as a safety issue.",
+      "language": "en",
+      "speaker": "Imani Jackson",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 237.0,
+      "end": 252.5,
+      "text": "I want to address the tyranny argument directly. The idea that an armed citizenry provides meaningful resistance to a modern government with fighter jets and nuclear weapons is a fantasy. The Second Amendment resistance rationale made sense in 1791 against muskets and cavalry. Applied to the 21st century it's not a serious political theory.",
+      "language": "en",
+      "speaker": "Professor Daniel Shore",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 254.0,
+      "end": 269.5,
+      "text": "You underestimate what an armed population determined to resist occupation can achieve. Look at Vietnam. Look at Afghanistan. Guerrilla resistance by armed civilians against technologically superior military forces has changed history multiple times. The deterrent effect of an armed citizenry is real even if imperfect.",
+      "language": "en",
+      "speaker": "Travis Holbrook",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 271.0,
+      "end": 286.5,
+      "text": "Those examples involved external occupying forces against which civilians had broad popular support. The Second Amendment fantasy involves citizens shooting at their own government. Those are politically and sociologically completely different scenarios. I think we should be precise about the comparison.",
+      "language": "en",
+      "speaker": "Professor Daniel Shore",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 288.0,
+      "end": 303.5,
+      "text": "I want to bring in the mental health angle. I work as a crisis counsellor and I can tell you that access to lethal means during a mental health crisis dramatically increases mortality. Suicide attempts with firearms succeed at a rate of over 85%. With pills it's under 5%. The lethality of the method matters enormously at the moment of crisis.",
+      "language": "en",
+      "speaker": "Dr. Patricia Wells",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 305.0,
+      "end": 320.5,
+      "text": "That stat on suicide lethality is one I think more people should know. Patricia, does that change how you think about red flag laws specifically — laws that allow temporary removal of guns from someone in crisis?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 322.0,
+      "end": 337.5,
+      "text": "Red flag laws, done properly with real due process protections, are probably the most evidence-supported gun regulation on the table. The research on means restriction for suicide is very strong. I support them. My concern is implementation — they need to not become tools for harassment or for targeting political opponents.",
+      "language": "en",
+      "speaker": "Dr. Patricia Wells",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 339.0,
+      "end": 354.5,
+      "text": "I think there's actually broad consensus possible on background checks and red flag laws. The polling consistently shows 80 to 90 percent of Americans support universal background checks. The obstacle is not public opinion. It's the political power of the gun lobby and the filibuster. This is a political failure, not a values failure.",
+      "language": "en",
+      "speaker": "Karen Liu",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 356.0,
+      "end": 371.5,
+      "text": "The NRA has lost enormous influence in the last decade. The political obstacle is less the gun lobby and more the genuine belief among a large number of voters — particularly rural voters — that Democrats intend to confiscate all firearms. Until gun control advocates address that fear credibly, the political impasse will continue.",
+      "language": "en",
+      "speaker": "Joe Malone",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 373.0,
+      "end": 388.5,
+      "text": "That fear is deliberately manufactured by the gun industry for commercial purposes. Nothing in any major gun safety proposal currently on the table involves confiscation. The confiscation narrative is disinformation that serves the financial interests of firearms manufacturers. I'm tired of treating it as a good-faith policy concern.",
+      "language": "en",
+      "speaker": "Dr. Evelyn Cross",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 390.0,
+      "end": 405.5,
+      "text": "I think it's possible to think the confiscation fear is manufactured and also to recognise that dismissing it instead of addressing it is tactically counterproductive. You lose the argument even if you're right on the facts, if the other side doesn't feel heard.",
+      "language": "en",
+      "speaker": "Imani Jackson",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 407.0,
+      "end": 422.5,
+      "text": "I want to give everyone a chance to say where they see the most realistic common ground. What is one gun policy measure you think could pass with genuine bipartisan support and actually save lives?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 424.0,
+      "end": 437.5,
+      "text": "Universal background checks. It's the most popular, the most evidenced, and the least threatening to law-abiding gun owners. It's also the most obviously reasonable. If you can pass a background check, you have nothing to fear from one.",
+      "language": "en",
+      "speaker": "Karen Liu",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 439.0,
+      "end": 452.5,
+      "text": "Red flag laws with strong due process. I can support that and I think most gun owners can if the process is designed to protect against abuse. The goal should be keeping guns away from people in crisis, not away from responsible owners.",
+      "language": "en",
+      "speaker": "Travis Holbrook",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 454.0,
+      "end": 467.5,
+      "text": "Safe storage requirements. The evidence on preventing both suicide and accidents is very strong. Most people agree that guns should be stored securely. Making that a legal requirement with real enforcement is achievable and would save thousands of lives.",
+      "language": "en",
+      "speaker": "Dr. Patricia Wells",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 469.0,
+      "end": 482.5,
+      "text": "Investment in community violence intervention programmes. Not regulation at all — investment. The cities that have reduced gun homicide most effectively have done it through community-based intervention, not through gun laws. That's where the evidence points.",
+      "language": "en",
+      "speaker": "Imani Jackson",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 484.0,
+      "end": 498.0,
+      "text": "I came in convinced people on opposite sides of this debate couldn't find common ground. I think I was wrong. There is more overlap here than I expected. The policy consensus exists. The political will to act on it is what's missing, and that's a different and harder problem.",
+      "language": "en",
+      "speaker": "Professor Daniel Shore",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 499.5,
+      "end": 512.0,
+      "text": "I think that's a good place to end. The consensus around specific measures like background checks and red flag laws is real. What this group showed today is that productive conversation is possible when people engage with each other's actual arguments rather than caricatures of them.",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

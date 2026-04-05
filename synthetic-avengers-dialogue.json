@@ -1,0 +1,240 @@
+{
+  "dialogueId": 103,
+  "note": "Synthetic test dialogue — 10 speakers debating who is the strongest Avenger. Approximately 14% inquiry (9 of 63 segments). Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-05T10:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "text": "Alright everyone, we're settling one of the most important questions in modern cinema. Who is the strongest Avenger? I want each of you to make the case for your pick. Who are you going with?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 14.0,
+      "end": 28.5,
+      "text": "Thor. It's not even close. He's literally a god. His power level in the comics is essentially unlimited, and in the films he survived the full force of a dying star, and his base power level without Mjolnir is shown to be enormous. He tanked energies that would vaporise every other Avenger.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 30.0,
+      "end": 44.5,
+      "text": "I'm going with Wanda. She rewrote reality. She created an entire pocket universe, reversed the deaths of her children into existence, and held every Avenger at bay simultaneously in Wandavision and Doctor Strange. Her power ceiling is higher than Thor's by a significant margin in the MCU canon.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 46.0,
+      "end": 60.5,
+      "text": "I have to go with Captain Marvel. She's the one character the Russo Brothers explicitly named as the most powerful in the MCU. She destroyed a warship by flying through it. She held back the infinity gauntlet with all stones. Binary mode gives her energy absorption and conversion that theoretically has no upper limit.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 62.0,
+      "end": 76.5,
+      "text": "I know this is going to be controversial, but I'm making the case for Iron Man. Not on raw power — he obviously loses that comparison. But Tony Stark consistently punched above his weight class through intelligence, preparation, and adaptability. He built his first suit in a cave. He cracked time travel. He snapped half the universe back into existence. Intelligence is a superpower.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 78.0,
+      "end": 92.5,
+      "text": "I think there's an important distinction between 'strongest' and 'most effective' that your Iron Man argument is collapsing, Marcus. Tony Stark is the most effective Avenger by many measures. But strength usually means something more specific — raw power output, physical durability, combat capability.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 94.0,
+      "end": 108.5,
+      "text": "Chris, how are you defining strength for this debate? Pure physical power, or something broader that includes combat effectiveness, survivability, and the ability to influence outcomes?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 110.0,
+      "end": 124.5,
+      "text": "For me, strength means: who would win in a straight fight against any other Avenger? And by that measure it's Thor. He beat the Hulk on Sakaar. He's fought Thanos twice and survived both times and nearly killed him the second time. The Hulk — who is supposed to be the strongest — lost to Thor without the hammer.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 126.0,
+      "end": 140.5,
+      "text": "Wanda beat Thor in Doctor Strange. She defeated the Ultron-Vision, who had the Mind Stone. She pulled the stones one by one off Thanos while he was wearing the gauntlet. She did all of this while being untrained and acting on grief. Her power ceiling with actual training and composure is terrifying.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 142.0,
+      "end": 156.5,
+      "text": "The Wanda argument has a problem, which is that she is emotionally unstable. Her power output is inconsistent and she's been incapacitated by psychological manipulation multiple times. Raw power means nothing if it's unreliable. Thor has centuries of combat experience and consistent power output. Reliability matters.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 158.0,
+      "end": 172.5,
+      "text": "That's a fair point but it applies to the MCU characterisation, not to her canonical power level. We're essentially asking whether we're judging the character as written or the character at their theoretical ceiling. Which frame are we using?",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 174.0,
+      "end": 188.5,
+      "text": "I want to throw Strange into the mix. Doctor Strange becomes arguably the most powerful MCU character after What If, and in the multiverse saga he demonstrates that his ability to adapt and deploy magic makes him uniquely effective against any opponent. He beat Thanos alone in Infinity War using the time stone — and he chose every other outcome because only one worked.",
+      "language": "en",
+      "speaker": "Leo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 190.0,
+      "end": 204.5,
+      "text": "Strange is incredibly powerful but there is a ceiling to sorcerer power that doesn't apply to Wanda or Thor. The Sorcerer Supreme draws on dimensional energy — it's not an intrinsic ability the way Thor's is. Cut him off from dimensional access and he drops significantly.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 206.0,
+      "end": 220.5,
+      "text": "What about the Hulk? I feel like we're sleeping on the Hulk. World Breaker Hulk has destroyed planets in the comics. In the films he's held back — Banner is suppressing him — but the ceiling of Hulk power if Banner released control completely is almost incomprehensible.",
+      "language": "en",
+      "speaker": "Jamie",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 222.0,
+      "end": 236.5,
+      "text": "The MCU version of the Hulk is pretty clearly weaker than Thor by the end of the Sakaar fight. Smart Hulk is mentally stable but physically weaker. The fully unleashed Hulk you're describing doesn't really appear anywhere in the MCU films. Are we doing MCU or comics?",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 238.0,
+      "end": 252.5,
+      "text": "MCU only for this debate as far as I'm concerned. Comics power levels are almost impossible to compare because different writers scale characters differently across decades. The MCU gives us a consistent universe where the comparisons are at least possible.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 254.0,
+      "end": 268.5,
+      "text": "Sticking to MCU then — and I still think Wanda is the answer. The Darkhold-amplified Wanda in Doctor Strange 2 kills the Illuminati, which includes Professor X, Mr. Fantastic, Captain Carter, Captain Marvel of another universe, and Black Bolt. She does it almost without effort. That's a demonstration of raw combat power against top-tier opponents.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 270.0,
+      "end": 284.5,
+      "text": "The Darkhold was enhancing her and corrupting her simultaneously. You can't cite Darkhold-Wanda as her baseline power level any more than you could cite Mjolnir-less Thor as his. External power amplifiers change the comparison.",
+      "language": "en",
+      "speaker": "Leo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 286.0,
+      "end": 300.5,
+      "text": "But Thor uses Mjolnir and Stormbreaker as amplifiers. The hammer doesn't give him power — he demonstrated that himself — but the weapons are channelling tools. Is there a principled distinction between Wanda's external amplification and Thor's weapon-based channelling?",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 302.0,
+      "end": 316.5,
+      "text": "Yes — Thor demonstrated his power is intrinsic by beating Surtur's forces without Mjolnir. The hammer focuses it. The Darkhold actively altered Wanda's psychology and accessed power from sacrificed alternate versions of herself. That's a different kind of augmentation.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 318.0,
+      "end": 332.5,
+      "text": "I want to make a case for Vision at his peak. With the Mind Stone, he was operating at a power level that impressed Thor and drew comparisons to the gauntlet itself. The tragedy of Vision is he was barely in the story long enough to show what he could do.",
+      "language": "en",
+      "speaker": "Jamie",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 334.0,
+      "end": 348.5,
+      "text": "Vision is fascinating because the Mind Stone is Infinity Stone-level power embedded in a being who can phase through matter and interface with any technology. If we allowed for peak Vision that argument is real. But he was neutralised fairly easily in Infinity War, which limits the case.",
+      "language": "en",
+      "speaker": "Leo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 350.0,
+      "end": 364.5,
+      "text": "He was neutralised by Corvus Glaive, who destroyed his ability to phase, not by superior power. It was a targeted weakness exploitation. That doesn't prove a power ceiling the way a direct overpowering does.",
+      "language": "en",
+      "speaker": "Jamie",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 366.0,
+      "end": 380.5,
+      "text": "Right, but survivability is part of strength. If you have a catastrophic weakness that can be exploited by a mid-tier villain, that limits your operational strength regardless of your theoretical peak. The best fighter isn't always the one with the highest ceiling — it's the one who can consistently perform.",
+      "language": "en",
+      "speaker": "Marcus",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 382.0,
+      "end": 396.5,
+      "text": "We're about five minutes from the end. Has anyone changed their pick? And for those of you sticking with your original answer — what's the single best piece of evidence you'd cite?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 398.0,
+      "end": 412.5,
+      "text": "Still Thor. Best piece of evidence: he tanked the full energy of Nidavellir's dying star for several minutes to forge Stormbreaker. Nothing else in the MCU has physically endured that test. At that moment the film is essentially showing us his maximum survivability and it's off the chart.",
+      "language": "en",
+      "speaker": "Chris",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 414.0,
+      "end": 428.5,
+      "text": "Still Wanda. Best evidence: she ripped the stones off Thanos one by one while using her other hand to hold a crumbling barrier keeping an ocean at bay. Two of the hardest tasks in the entire saga happening simultaneously, unimpeded. No one else demonstrates that level of multitasking at that power level.",
+      "language": "en",
+      "speaker": "Priya",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 430.0,
+      "end": 444.5,
+      "text": "I'm moving off Captain Marvel to Wanda after this conversation. The Infinity War moment Priya just described is genuinely the most impressive display of raw power in the entire saga. I came in with a different answer and I've been convinced.",
+      "language": "en",
+      "speaker": "Aisha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 446.0,
+      "end": 460.0,
+      "text": "I'll close by saying this is one of my favourite debates because it forces you to define what you mean by strong. Physical power? Combat effectiveness? Narrative impact? Consistency? All reasonable answers lead to different conclusions and that's what makes it genuinely interesting.",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

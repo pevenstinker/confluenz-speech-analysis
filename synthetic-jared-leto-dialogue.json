@@ -1,0 +1,232 @@
+{
+  "dialogueId": 104,
+  "note": "Synthetic test dialogue — 10 speakers debating whether Jared Leto is a terrible actor. Approximately 14% inquiry (9 of 64 segments). Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-05T10:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.5,
+      "text": "Is Jared Leto a terrible actor? It's a debate that generates genuine passion online and divides people who follow film seriously. I want to hear where everyone stands on this. Who thinks he's terrible and who thinks that's unfair?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 15.0,
+      "end": 29.5,
+      "text": "I think he's a genuinely bad actor. His Joker in Suicide Squad is embarrassing — cartoonish in a way that felt completely detached from the rest of the film. His method acting reputation has become a shield against legitimate criticism. People treat the intensity of his preparation as evidence of quality when the screen results speak for themselves.",
+      "language": "en",
+      "speaker": "Dominique",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 31.0,
+      "end": 45.5,
+      "text": "I completely disagree. He won an Academy Award for Dallas Buyers Club. His performance there is understated, emotionally real, and completely transformed from his earlier work. The Suicide Squad failure is a production and editing disaster — not a Leto failure. There are interviews where you can see he delivered far more than what ended up on screen.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 47.0,
+      "end": 61.5,
+      "text": "The Dallas Buyers Club argument is interesting but I think that performance is carried largely by the character writing. The transformation is real but physical transformation alone — losing the weight, the mannerisms — is not the same as emotional depth. I found him watchable but not particularly moving.",
+      "language": "en",
+      "speaker": "Natasha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 63.0,
+      "end": 77.5,
+      "text": "I think there's a real question here about whether we're talking about Jared Leto the actor or Jared Leto the persona. His public persona — the method madness, the stunts on set, the cult band — generates enormous amounts of negative coverage that I think colours how people receive his performances. Would his Joker be judged the same way if an unknown had played it?",
+      "language": "en",
+      "speaker": "Marcus Rivera",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 79.0,
+      "end": 93.5,
+      "text": "That's a good challenge, Marcus. Do you think he genuinely suffers from a reputational bias that unfairly damages his critical reception? Or do you think the poor performances and the persona are both real, independent problems?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 95.0,
+      "end": 109.5,
+      "text": "Both. I think he's had genuinely poor performances — Morbius is indefensible — but I also think the media framing around him amplifies every failure and diminishes every success. That's a different kind of unfairness than saying he's secretly excellent. He's uneven, and the coverage treats the lows as definitive when they're not.",
+      "language": "en",
+      "speaker": "Marcus Rivera",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 111.0,
+      "end": 125.5,
+      "text": "Morbius is important to bring up because it bombed in a way that was historically spectacular and he was both the lead and a producer. At some point you have to hold an actor accountable not just for the script they were given but for the project they chose to attach themselves to. His instincts are genuinely questionable.",
+      "language": "en",
+      "speaker": "Dominique",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 127.0,
+      "end": 141.5,
+      "text": "But career choices and acting ability are separate things. Tom Hanks has made bad movies. Cate Blanchett has been in bad movies. We don't call them terrible actors because of that. The standard we apply to Leto — judge him by his worst work — is not the standard we apply to actors we already respect.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 143.0,
+      "end": 157.5,
+      "text": "I think the method acting issue is central here. His reported behaviour on sets — the method antics with the cast of Suicide Squad — is genuinely problematic. Sending used condoms and dead animals to castmates is not professional behaviour. I don't think we're obligated to separate the professional conduct from the work.",
+      "language": "en",
+      "speaker": "Keiko Tanaka",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 159.0,
+      "end": 173.5,
+      "text": "Those stories are largely unverified or significantly embellished. The used condom story was denied by the recipient. The dead animal story has multiple conflicting accounts. Jared Leto has a reputation for method antics and the media treats unverified stories as confirmed because they fit the established narrative.",
+      "language": "en",
+      "speaker": "Marcus Rivera",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 175.0,
+      "end": 189.5,
+      "text": "That's fair on the factual question. Even if we set the on-set stories aside entirely, does the method acting approach itself — the extreme immersion — actually produce better performances? The evidence seems to suggest it doesn't, and may actually make ensemble performance worse.",
+      "language": "en",
+      "speaker": "Natasha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 191.0,
+      "end": 205.5,
+      "text": "That's an interesting empirical claim. Can you think of examples where heavy method actors have delivered performances that wouldn't have been achieved otherwise? Or is method acting primarily a marketing image at this point?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 207.0,
+      "end": 221.5,
+      "text": "Daniel Day-Lewis is the argument everyone makes and it's a good one. There Will Be Blood, Gangs of New York, Phantom Thread — the immersion is visible in the work. But Day-Lewis is exceptional. The problem is that method acting has become an aesthetic ideology adopted by actors who don't have his ability to translate intensity into genuine depth.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 223.0,
+      "end": 237.5,
+      "text": "I want to say something in Leto's defence that might be unpopular. His performance in Requiem for a Dream is genuinely heartbreaking. It's a small role but it's entirely real — no showboating, no affectation, just a person falling apart. That movie was made before the Leto persona became what it is now, and it shows what he can do.",
+      "language": "en",
+      "speaker": "Priya Kapoor",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 239.0,
+      "end": 253.5,
+      "text": "Requiem is a great point. That performance is often forgotten in this conversation. The question it raises for me is whether his development since then is a case of fame corrupting talent — the bigger the star, the less directed they are, and unchecked instincts produce worse work.",
+      "language": "en",
+      "speaker": "Dominique",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 255.0,
+      "end": 269.5,
+      "text": "I think that's right and it's a pattern that applies widely. Early career performances are often more disciplined because the actor is constrained by directors with power over them. Later, the star has more creative control, and the results are more variable. Leto has too much creative control for his own good.",
+      "language": "en",
+      "speaker": "Natasha",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 271.0,
+      "end": 285.5,
+      "text": "I want to bring Blade Runner 2049 into this. He has a small role and he is honestly pretty unsettling in it. It's a deliberately stylised performance in a deliberately stylised film and it works. It's not a great actor showcase but it's not embarrassing either.",
+      "language": "en",
+      "speaker": "Keiko Tanaka",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 287.0,
+      "end": 301.5,
+      "text": "House of Gucci. He is unrecognisable in it — completely buried under prosthetics and accent — and people had very different reactions. Some found it brilliant character work. Some found it a distracting caricature. Does anyone here have a strong take on that one?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 303.0,
+      "end": 317.5,
+      "text": "House of Gucci is interesting because the whole film is deliberately operatic and campy. Ridley Scott gave everyone permission to go broad. In that context Leto's Paolo is one of the more internally consistent performances — he commits completely to a specific comedic register and never breaks it.",
+      "language": "en",
+      "speaker": "Priya Kapoor",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 319.0,
+      "end": 333.5,
+      "text": "I found it intolerable. He is clearly acting. Every scene he is in you see the actor making choices rather than the character living. But I'll concede that's a stylistic choice and there are people who find that kind of demonstrative acting entertaining. De gustibus.",
+      "language": "en",
+      "speaker": "Dominique",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 335.0,
+      "end": 349.5,
+      "text": "The Joker comparison to Heath Ledger is worth addressing directly. Ledger's performance redefined the character. Leto's was an embarrassment in comparison. But Ledger had the benefit of a director who restrained and focused him. Christopher Nolan shaped that performance. Ayer could not do the same for Leto.",
+      "language": "en",
+      "speaker": "Tobias",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 351.0,
+      "end": 365.5,
+      "text": "I think that's the most generous reading possible and it gives Leto far less credit than a serious actor deserves. A genuinely talented actor adapts to directorial chaos. Leto was given a bad director and he delivered a bad performance. I'm not sure attributing that entirely to Ayer is fair.",
+      "language": "en",
+      "speaker": "Keiko Tanaka",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 367.0,
+      "end": 381.5,
+      "text": "Final question: ten years from now, does Jared Leto's legacy look more like Nicolas Cage — an actor whose reputation is slowly being rehabilitated — or does he remain a punchline? What do people think?",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 383.0,
+      "end": 397.5,
+      "text": "Nicolas Cage trajectory. The same internet culture that demolished his reputation is already starting to appreciate his commitment to insane choices as a form of performance art. Leto's devotion to the bit will eventually be reframed as auteur eccentricity rather than failure.",
+      "language": "en",
+      "speaker": "Marcus Rivera",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 399.0,
+      "end": 413.5,
+      "text": "I hope not, because that reframing lets the industry off the hook for tolerating his reported behaviour. But realistically? He'll produce one undeniably great performance in his fifties and it will rehabilitate the whole career retrospectively. Hollywood has a very forgiving memory for certain kinds of men.",
+      "language": "en",
+      "speaker": "Keiko Tanaka",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 415.0,
+      "end": 429.0,
+      "text": "I came into this debate ready to argue he's terrible and I'm leaving with a more complicated view. Requiem and Dallas Buyers Club are real performances. The rest is a very mixed bag. Unevenly talented is probably closer to the truth than terrible.",
+      "language": "en",
+      "speaker": "Dominique",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 430.5,
+      "end": 444.0,
+      "text": "I think the conversation illustrated that the Leto debate is really a debate about how we judge actors — by their best work, their worst work, their average, their choices, their behaviour. He's a useful case study precisely because the answers diverge so sharply depending on the framework you use.",
+      "language": "en",
+      "speaker": "Host",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "dialogueId": 101,
+  "note": "Synthetic test dialogue — 10 speakers discussing vaccine safety and effectiveness. Approximately 13% inquiry (8 of 62 segments). Speaker and groundTruth fields added for evaluation; these are not produced by the real pipeline.",
+  "recordedAt": "2026-04-05T10:00:00.000000+00:00",
+  "modelVersion": "synthetic",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "text": "Welcome everyone. Today we're discussing vaccine safety and effectiveness — a topic that touches public health, personal freedom, and scientific trust. I'd like each of you to start by sharing your general position. Do you trust the current vaccine development and approval process?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 16.5,
+      "end": 33.0,
+      "text": "I do trust it, and I think we need to be very clear: the clinical trial and regulatory approval process for vaccines is among the most rigorous in all of medicine. The vaccines we have today have been tested in tens of thousands of participants before approval. The science here is not ambiguous.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 34.5,
+      "end": 52.0,
+      "text": "I have serious concerns about the process, and I think those concerns are legitimate. The emergency use authorisations during COVID meant reduced trial timelines. I'm not anti-vaccine as a principle — I vaccinate my children for measles and polio. But I believe we moved too fast, and I think it's reasonable to ask questions about long-term safety data that simply doesn't exist yet.",
+      "language": "en",
+      "speaker": "Robert Haines",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 53.5,
+      "end": 68.0,
+      "text": "The emergency use framework didn't remove the safety requirements — it accelerated the administrative steps after the data was collected. Phase three trials were completed for the COVID vaccines before authorisation. What was compressed was bureaucratic review, not the science itself.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 69.5,
+      "end": 84.0,
+      "text": "I think we also need to acknowledge the track record of vaccines over the past century. Smallpox was eradicated. Polio is gone from most of the world. Childhood mortality from measles, diphtheria, and whooping cough has dropped by orders of magnitude. These outcomes are not coincidences — they are the direct result of vaccination programmes.",
+      "language": "en",
+      "speaker": "Professor Amara Diallo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 85.5,
+      "end": 100.0,
+      "text": "Nobody here is disputing the historical record on polio. But we're not talking about polio vaccines developed over decades of traditional research. The mRNA technology was new. I'm willing to accept that it may be fine — but I think dismissing the concerns of people who want more data is itself a form of scientific overconfidence.",
+      "language": "en",
+      "speaker": "Robert Haines",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 101.5,
+      "end": 116.0,
+      "text": "Robert, I want to ask you directly: what would constitute sufficient evidence for you? What would the data need to show, or how long would we need to wait, before you would consider the mRNA vaccines adequately proven?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 117.5,
+      "end": 133.0,
+      "text": "That's a fair question and I've thought about it. Honestly, five to seven years of post-approval surveillance data. I want to see large-scale studies on myocarditis incidence across age groups, and I want independent replication of the efficacy findings by research institutions with no ties to the manufacturers.",
+      "language": "en",
+      "speaker": "Robert Haines",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 134.5,
+      "end": 149.0,
+      "text": "The myocarditis data is already in. The risk is real but it is significantly smaller than the myocarditis risk from COVID infection itself, particularly in the age groups most affected. That comparison matters. We don't evaluate a vaccine in isolation — we evaluate it against the disease it prevents.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 150.5,
+      "end": 165.0,
+      "text": "I'm a nurse, and I want to bring a different kind of evidence into this conversation. I have seen patients die from preventable diseases because they refused vaccination based on misinformation. I have also seen the relief on parents' faces when their children were protected. The suffering caused by vaccine-preventable illness is real and it is preventable.",
+      "language": "en",
+      "speaker": "Sofia Reyes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 166.5,
+      "end": 181.0,
+      "text": "I appreciate that clinical experience, Sofia. But I think there's a distinction between supporting vaccination in general and supporting compulsory vaccination or the removal of exemptions. I support the former strongly. I have real problems with the latter. Informed consent is a cornerstone of medical ethics.",
+      "language": "en",
+      "speaker": "Marcus Webb",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 182.5,
+      "end": 197.0,
+      "text": "I think that's the crux of the debate, actually. Vaccines work at the population level through herd immunity. An individual decision not to vaccinate is never purely individual — it creates risk for immunocompromised people who cannot be vaccinated. The ethical claim for personal exemptions has to be weighed against the harm it imposes on others.",
+      "language": "en",
+      "speaker": "Professor Amara Diallo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 198.5,
+      "end": 213.0,
+      "text": "Does anyone here support mandatory vaccination? I want to understand where people actually stand on that, because I think it's being conflated with the separate question of whether vaccines are safe.",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 214.5,
+      "end": 229.0,
+      "text": "I don't support legal mandates, but I do support strong incentive structures — school entry requirements, for example. The state has always conditioned certain privileges on meeting certain health standards. That's a different principle from criminal compulsion.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 230.5,
+      "end": 245.0,
+      "text": "School entry requirements are effectively mandates for parents who don't have the option of home-schooling. I think we should be honest about that. When you say 'your child cannot attend school without this,' you are coercing a medical decision for families with limited choices.",
+      "language": "en",
+      "speaker": "Marcus Webb",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 246.5,
+      "end": 261.0,
+      "text": "We require children to be immunised against tuberculosis, tetanus, and diphtheria in many countries as a condition of school enrolment, and this has been the case for decades. This is not new. The debate about COVID vaccines being different is valid, but the principle of conditional school entry for immunisation is well-established law.",
+      "language": "en",
+      "speaker": "Professor Amara Diallo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 262.5,
+      "end": 277.0,
+      "text": "I think the trust issue is the elephant in the room here. A lot of vaccine hesitancy is not really about the science — it's about distrust of institutions. Pharmaceutical companies have a record of concealing harm in other drug categories. The FDA has been wrong before. That history doesn't disappear just because we need people to trust the system now.",
+      "language": "en",
+      "speaker": "Layla Osei",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 278.5,
+      "end": 293.0,
+      "text": "That's a legitimate point about institutional trust, Layla. And it's complicated by the fact that rebuilding trust requires transparency, but transparency also means acknowledging uncertainty — and opponents of vaccination can weaponise any acknowledgement of uncertainty as proof that the science is unsettled. How do scientists navigate that?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 294.5,
+      "end": 309.0,
+      "text": "I think the answer is to be honest about what we know and what we don't, but to also be very explicit about the difference between scientific uncertainty — which is normal and healthy — and manufactured doubt, which is a deliberate tactic. Scientists have to get better at communicating that distinction.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 310.5,
+      "end": 325.0,
+      "text": "I've spent a lot of time in online communities where vaccine hesitancy circulates. What I can tell you is that the science communication problem is real. People aren't hesitant because they're stupid. They're hesitant because they've been failed by institutions before, and the official messaging has often been patronising. Calling people who ask questions anti-vaxxers is not effective public health communication.",
+      "language": "en",
+      "speaker": "Layla Osei",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 326.5,
+      "end": 341.0,
+      "text": "I agree with that completely. I've seen colleagues dismiss patient concerns in ways that are counterproductive. You don't win someone over by making them feel stupid. But there is also a limit — at some point you are not engaging with a question in good faith but with a belief system that is not responsive to evidence.",
+      "language": "en",
+      "speaker": "Sofia Reyes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 342.5,
+      "end": 357.0,
+      "text": "The natural immunity question is one I'd like to raise. Post-infection natural immunity appears to be robust and durable for many diseases. Some countries have used serological testing to grant exemptions. Should vaccination policy account for pre-existing immunity from prior infection?",
+      "language": "en",
+      "speaker": "Robert Haines",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 358.5,
+      "end": 373.0,
+      "text": "It's a reasonable question scientifically, though it has practical complications. Serological testing is not universally available, results vary, and the immune response to infection is less consistent than the response to a standardised vaccine dose. In a population-level policy context, the simplicity of universal vaccination has value beyond the immunological argument.",
+      "language": "en",
+      "speaker": "Professor Amara Diallo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 374.5,
+      "end": 389.0,
+      "text": "I want to come back to something Sofia said about misinformation. We focus a lot on people who refuse vaccines entirely. But I think there's a large middle group — reasonable people with specific questions — who get caught in the information environment between medical establishment messaging on one side and conspiracy content on the other. That middle is the group we're losing.",
+      "language": "en",
+      "speaker": "Marcus Webb",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 390.5,
+      "end": 405.0,
+      "text": "That middle ground is exactly where public health communication has failed. Official guidance changed multiple times during COVID — on masks, on boosters, on transmission outdoors — and each reversal eroded credibility. I'm not saying the science was wrong to update. I'm saying the communication strategy treated each update as if nothing had changed, and people noticed the contradiction.",
+      "language": "en",
+      "speaker": "Layla Osei",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 406.5,
+      "end": 421.0,
+      "text": "I think that's fair. Communicating under uncertainty while maintaining public confidence is genuinely hard. But I also think the counterfactual matters: the COVID vaccines saved millions of lives by any serious epidemiological estimate. Whatever the communication failures, the outcome at the population level was a success.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 422.5,
+      "end": 437.0,
+      "text": "I think we can hold both things at once. The vaccines worked. The process had genuine problems. The communication was poor. People's concerns were not always irrational. And the science was solid. These are all true simultaneously and treating them as contradictory is what gets us into trouble.",
+      "language": "en",
+      "speaker": "Professor Amara Diallo",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 438.5,
+      "end": 453.0,
+      "text": "I'd like to close by asking everyone: has this conversation changed your view in any way, even slightly, or reinforced something you already believed? What are you taking away from this?",
+      "language": "en",
+      "speaker": "Facilitator",
+      "groundTruth": "inquiry"
+    },
+    {
+      "start": 454.5,
+      "end": 468.0,
+      "text": "It's reinforced my view that the scientific case for vaccines is strong, but it's also given me more appreciation for why the institutional trust problem is serious. We can't win the argument on evidence alone if the people we're trying to reach don't trust the institutions presenting the evidence.",
+      "language": "en",
+      "speaker": "Dr. Nadia Chen",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 469.5,
+      "end": 483.0,
+      "text": "I came in more sceptical than I'm leaving. The myocarditis comparison to COVID infection risk is something I hadn't seen presented that clearly before. I still want more long-term data, but I accept that the risk-benefit calculation at the population level is not as unclear as I believed.",
+      "language": "en",
+      "speaker": "Robert Haines",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 484.5,
+      "end": 497.0,
+      "text": "I'm leaving with the same position I came in with, but with more respect for the seriousness of the institutional trust problem. Dismissing that as irrational doesn't help anyone. Trust has to be earned back, and that takes time and transparency.",
+      "language": "en",
+      "speaker": "Sofia Reyes",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 498.5,
+      "end": 511.0,
+      "text": "I'm grateful for this conversation. I think the middle ground between uncritical acceptance and conspiratorial rejection is where most people actually live, and that middle ground deserves more serious engagement from public health institutions than it usually gets.",
+      "language": "en",
+      "speaker": "Marcus Webb",
+      "groundTruth": "advocacy"
+    },
+    {
+      "start": 512.5,
+      "end": 525.0,
+      "text": "What struck me is how much this is ultimately a conversation about trust. Everything else — the safety data, the communication strategy, the mandates question — flows from that. Rebuilding trust in institutions is the work that has to happen before the science debates become easier.",
+      "language": "en",
+      "speaker": "Layla Osei",
+      "groundTruth": "advocacy"
+    }
+  ]
+}

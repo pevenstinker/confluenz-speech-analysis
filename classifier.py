@@ -333,7 +333,23 @@ _QUESTION_START_RE = re.compile(
     r"\s+(you|we|they|anyone|everyone|somebody|people|it|that|this)\b",
     re.IGNORECASE,
 )
+# Advocacy rhetorical framing: phrases that introduce a ? as a debate device
+# rather than as a genuine request for other speakers to respond.
+_ADVOCACY_RHETORICAL_RE = re.compile(
+    r"\bthere[''']?s a real question (here )?about\b"
+    r"|\braise the question of\b",
+    re.IGNORECASE,
+)
 
+# Clarifying tails: a sentence appended after a ? to explain what kind of
+# answer is wanted — a facilitator move, not advocacy.
+_CLARIFYING_TAIL_RE = re.compile(
+    r"^(i want to (understand|know|be clear|clarify)"
+    r"|i[''']m trying to (understand|figure out|be clear)"
+    r"|what i mean is"
+    r"|to be specific)",
+    re.IGNORECASE,
+)
 
 def _no_question_override(text: str, label: str) -> str:
     """5b: If the LLM returned 'inquiry' but the text contains no question mark and
@@ -352,11 +368,22 @@ def _force_inquiry_override(text: str, label: str) -> str:
     """5c (complement to 5b): If the LLM returned 'advocacy' but the text contains a
     clear inquiry signal, flip the label to 'inquiry'.
     Handles: question marks the LLM ignored, auxiliary-inversion question starts
-    (\"Do you think...\"), and strong invitation phrases (\"please let me know\")."""
+    (\"Do you think...\"), and strong invitation phrases (\"please let me know\").
+
+    Suppression: the ? flip is skipped when the ? is rhetorical —
+    either because substantial non-clarifying advocacy content follows it,
+    or because the text opens with an advocacy framing device."""
     if label != "advocacy":
         return label
     if "?" in text and not _REPORTED_SPEECH_RE.search(text):
-        return "inquiry"
+        last_q = text.rfind('?')
+        tail = text[last_q + 1:].strip()
+        if len(tail) >= 40 and not _CLARIFYING_TAIL_RE.match(tail):
+            pass  # substantial non-clarifying tail — ? is rhetorical
+        elif _ADVOCACY_RHETORICAL_RE.search(text):
+            pass  # advocacy framing phrase — ? is rhetorical
+        else:
+            return "inquiry"
     if _STRONG_INVITATION_RE.search(text):
         return "inquiry"
     if _QUESTION_START_RE.match(text.strip()):
