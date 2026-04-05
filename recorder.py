@@ -3,6 +3,8 @@ import queue
 import time
 from datetime import datetime, timezone
 
+from clock import get_utc_now
+
 import numpy as np
 import sounddevice as sd
 import soundfile as sf
@@ -35,7 +37,7 @@ class Recorder:
         self._overlap_audio = np.zeros(0, dtype="float32")
         self._last_drain_wall = None
         self._start_time = time.time()
-        self._start_utc = datetime.now(timezone.utc)
+        self._start_utc = get_utc_now()
         if self._save_path:
             self._wav_writer = sf.SoundFile(
                 self._save_path, mode="w", samplerate=SAMPLE_RATE, channels=CHANNELS, subtype="PCM_16"

@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 import click
 
 from classifier import classify_segments
+from clock import get_utc_now
 from config import config
 from recorder import Recorder, SAMPLE_RATE
 from transcriber import transcribe, transcribe_chunk
@@ -104,7 +105,7 @@ def record(dialogue_id, model, save_audio, save_transcript_txt, no_text_in_json,
         save_text_in_json=False if no_text_in_json else None,
     )
 
-    now = datetime.now(timezone.utc)
+    now = get_utc_now()
     date_str = now.strftime("%Y-%m-%d")
     id_part = f"-dialogue-{dialogue_id}" if dialogue_id is not None else ""
     base_name = f"{date_str}{id_part}"
