@@ -18,6 +18,7 @@ class Recorder:
         self._q = queue.Queue()
         self._save_path = save_audio_path
         self._start_time = None
+        self._stop_time = None
         self._start_utc = None
         self._stream = None
         self._wav_writer = None
@@ -53,7 +54,22 @@ class Recorder:
     def get_elapsed(self) -> int:
         if self._start_time is None:
             return 0
-        return int(time.time() - self._start_time)
+        end = self._stop_time if self._stop_time is not None else time.time()
+        return int(end - self._start_time)
+
+    def stop_stream(self) -> None:
+        """Stop the audio input stream without draining the queue.
+
+        Call this to freeze the recording length before waiting on other work
+        (e.g. a transcription thread).  The queue may still hold unread audio;
+        call stop() afterwards to drain it.
+        """
+        if self._stream:
+            self._stream.stop()
+            self._stream.close()
+            self._stream = None
+        if self._stop_time is None:
+            self._stop_time = time.time()
 
     def drain_chunk(self, overlap_samples: int = 0) -> tuple:
         """Drain all audio currently in the queue and return it as a flat float32 array.
@@ -108,14 +124,13 @@ class Recorder:
         return combined, time_offset, actual_overlap_secs
 
     def stop(self) -> tuple:
-        """Stop the stream and return (final_audio_ndarray, sample_rate, time_offset).
+        """Stop the stream (if still running) and drain remaining audio.
 
-        Drains any remaining audio from the queue with no overlap prefix.
+        Returns (final_audio_ndarray, sample_rate, time_offset).
+        Call stop_stream() first if you need to freeze the recording length
+        before waiting on other work.
         """
-        if self._stream:
-            self._stream.stop()
-            self._stream.close()
-            self._stream = None
+        self.stop_stream()  # no-op if already called
 
         remaining, time_offset, _ = self.drain_chunk(overlap_samples=0)
 

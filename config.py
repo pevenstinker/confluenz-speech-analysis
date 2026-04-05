@@ -20,6 +20,7 @@ class Config:
         self.ollama_model = os.getenv('OLLAMA_MODEL', 'gemma3:1b')
         self.chunk_interval = int(os.getenv('CHUNK_INTERVAL', '30'))   # seconds per processing chunk
         self.chunk_overlap = int(os.getenv('CHUNK_OVERLAP', '3'))      # seconds of overlap between chunks
+        self.stop_delay = int(os.getenv('STOP_DELAY', '3'))            # seconds to keep recording after ENTER
         self.time_sync_url = os.getenv('TIME_SYNC_URL', '')            # optional URL to sync clock with server
 
     def apply_overrides(self, model=None, save_audio=None, save_transcript_txt=None, save_text_in_json=None):

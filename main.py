@@ -222,13 +222,24 @@ def record(dialogue_id, model, save_audio, save_transcript_txt, no_text_in_json,
         pass
 
     stop_event.set()
-    chunk_stop.set()
     print()
+
+    if config.stop_delay > 0:
+        print(f"  Finishing... ({config.stop_delay}s)", flush=True)
+        time.sleep(config.stop_delay)
+
+    # Stop the audio stream NOW so the recording length is fixed and no new
+    # audio accumulates while we wait for an in-progress transcription to finish.
+    recorder.stop_stream()
+    chunk_stop.set()
     print("  Stopping...")
 
-    # Stop recording and process any remaining audio
+    # Wait for any in-progress chunk to finish BEFORE draining the recorder,
+    # so the chunk thread and the final-audio path don't race on the queue.
+    chunk_thread.join(timeout=120)
+
+    # Stop recording and collect any audio that arrived after the last chunk drain
     final_audio, _, final_time_offset = recorder.stop()
-    chunk_thread.join(timeout=5)
 
     if chunk_error:
         print(f"  Warning: chunk processing error — {chunk_error[0]}")
